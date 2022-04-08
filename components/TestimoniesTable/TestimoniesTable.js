@@ -1,19 +1,16 @@
-import React from "react"
-import { Table, Container, Button } from "react-bootstrap"
-import ExpandTestimony from "../ExpandTestimony/ExpandTestimony"
-import { useBill, useMember } from "../db"
-import { useRouter } from "next/router"
 import Link from "next/link"
+import React from "react"
+import { Table, Container } from "react-bootstrap"
+import ExpandTestimony from "../ExpandTestimony/ExpandTestimony"
+import { useBill, usePublicProfile } from "../db"
 import { formatBillId } from "../formatting"
-
-const MemberName = ({ memberId }) => {
-  const { member, loading } = useMember(memberId)
-  return <>{member?.Name}</>
-}
+import ProfileButton from "../ProfileButton/ProfileButton"
+import { QuestionTooltip } from "../tooltip"
 
 const TestimonyRow = ({ testimony }) => {
   const { result: bill } = useBill(testimony.billId)
-  const router = useRouter()
+  const profile = usePublicProfile(testimony.authorUid)
+  const authorPublic = profile.result?.public
 
   return (
     <tr>
@@ -24,22 +21,19 @@ const TestimonyRow = ({ testimony }) => {
       </td>
       <td>{testimony.position}</td>
       <td>
-        {testimony.authorDisplayName == null ? (
-          "(blank)"
+        {!testimony.authorDisplayName ? (
+          <>(blank)</>
+        ) : authorPublic ? (
+          <ProfileButton
+            uid={testimony?.authorUid}
+            displayName={testimony?.authorDisplayName}
+          />
         ) : (
-          <Button
-            variant="primary"
-            onClick={() =>
-              router.push(`/publicprofile?id=${testimony.authorUid}`)
-            }
-          >
-            {testimony.authorDisplayName}
-          </Button>
+          <>{testimony.authorDisplayName}</>
         )}
       </td>
-      <td>{testimony.publishedAt.toDate().toLocaleString()}</td>
+      <td>{testimony.publishedAt.toDate().toLocaleDateString()}</td>
       <td>{testimony.content.substring(0, 100)}...</td>
-      <td>{testimony.attachment != null ? "Yes" : ""}</td>
       <td>
         <ExpandTestimony bill={bill?.content} testimony={testimony} />
       </td>
@@ -59,10 +53,17 @@ const TestimoniesTable = ({ testimonies }) => {
           <tr>
             <th>Bill</th>
             <th>Position</th>
-            <th>Submitter</th>
+            <th>
+              Submitter
+              {
+                <QuestionTooltip
+                  className="m-1"
+                  text="submitters without links have chosen to make their profile private"
+                ></QuestionTooltip>
+              }
+            </th>
             <th>Date Submitted</th>
             <th>Text</th>
-            <th>Attachment?</th>
             <th></th>
           </tr>
         </thead>
