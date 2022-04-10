@@ -19,6 +19,7 @@ describe('bill flow', () => {
         cy.location().should((loc) => {
             expect(loc.href).to.eq(`${origin.toString()}/bills`)
         })
+        cy.hash.should('eq', `#/bills`)
     })
     it('navigates to testimony page', () => {
         cy.get('a').contains('View All Testimony').click()
@@ -44,7 +45,7 @@ describe("bill page itself", () => {
     })
 
     it('loads bills', () => {
-        
+
     })
 
     it('has title link', () => {
