@@ -5,6 +5,8 @@ import BillHistoryTable from "../BillHistoryTable/BillHistoryTable"
 const BillHistory = ({ bill, billHistory }) => {
   const [showBillHistory, setShowBillHistory] = useState(false)
 
+
+  console.log(billHistory)
   const handleShowBillHistory = () => setShowBillHistory(true)
   const handleCloseBillHistory = () => setShowBillHistory(false)
   return (
