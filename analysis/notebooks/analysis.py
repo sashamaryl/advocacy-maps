@@ -1,8 +1,8 @@
+from itertools import chain
 from dateutil.parser import parse
 from datetime import datetime
 import pandas as pd
 import re
-import json
 
 to_namedtuple = lambda x: list(x.itertuples())
 actions = to_namedtuple(pd.read_csv('../data/all-history-actions.csv'))
@@ -54,6 +54,7 @@ def print_with_stats(bill_ids):
     print()
     history = getHistory(id)
     print("bill: ", id)
+    print(get_bills_urls([id]))
     print("history actions: ", len(history))
     print("connections: ", collectConnections(id))
     for action in history:
@@ -124,3 +125,45 @@ def write_with_stats_to_file(bill_ids, filename, used_keyword="no keyword"):
 def save_to_file(s, path):
   with open(path, 'w') as f:
     f.write(s)
+        
+
+def format_bill_url(billnum: str):
+  return f'https://mapletestimony.org/bill?id={billnum}'
+
+def get_bills_urls(bills):
+  return [format_bill_url(bill) for bill in bills]
+
+def format_date(action):
+  return datetime.strftime(parse(action.date), "%x %X")
+
+def date_day(action): 
+  date = action if type(action) == str else action.date
+  return datetime.strftime(parse(date), "%x")
+
+def date_time(action): 
+  date = action if type(action) == str else action.date
+  return datetime.strftime(parse(date), "%X")
+
+def print_action(a):
+  return (a.bill_id, a.action_id,a.branch, a.action, a.connections, a.date)
+
+
+
+
+class Action: 
+  def __init__(self, index, action) -> None:
+    self.bill_id: str = action.id
+    self.action_id: str = action.id + "." + str(index)
+    self.branch: str = action.branch
+    self.action: str = action.action
+    self.date: str = action.date
+    self.connections: list[str] = findBillNum.findall(self.action)
+
+class Bill: 
+  def __init__(self, bill):
+    self.id: str = bill
+    self.title: str | None = None 
+    self.url: str = get_bills_urls([bill])
+    self.history: list[str] = getHistory(bill)
+    self.actions: list[Action] = [Action(index, a) for index, a in enumerate(self.history)]
+    self.connections = list(chain([action.connections for action in self.actions]))
