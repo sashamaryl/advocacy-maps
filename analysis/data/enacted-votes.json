@@ -1,0 +1,2675 @@
+{
+  "0": {
+    "id": "H100",
+    "branch": "Senate",
+    "date": 1623079611847,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "1": {
+    "id": "H1917",
+    "branch": "Senate",
+    "date": 1659334591113,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "2": {
+    "id": "H2144",
+    "branch": "Senate",
+    "date": 1637165279820,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "3": {
+    "id": "H2156",
+    "branch": "Senate",
+    "date": 1627917470193,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "4": {
+    "id": "H2166",
+    "branch": "Senate",
+    "date": 1634238955493,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "5": {
+    "id": "H2169",
+    "branch": "Senate",
+    "date": 1640016646077,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "6": {
+    "id": "H2183",
+    "branch": "Senate",
+    "date": 1648134825787,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "7": {
+    "id": "H2190",
+    "branch": "Senate",
+    "date": 1643905062820,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "8": {
+    "id": "H2205",
+    "branch": "Senate",
+    "date": 1651763497283,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "9": {
+    "id": "H2294",
+    "branch": "Senate",
+    "date": 1659121634913,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "10": {
+    "id": "H2645",
+    "branch": "Senate",
+    "date": 1647875710117,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "11": {
+    "id": "H2646",
+    "branch": "Senate",
+    "date": 1647875710117,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "12": {
+    "id": "H2714",
+    "branch": "Senate",
+    "date": 1629126981750,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "13": {
+    "id": "H2757",
+    "branch": "Senate",
+    "date": 1629386220637,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "14": {
+    "id": "H303",
+    "branch": "Senate",
+    "date": 1626883977030,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "15": {
+    "id": "H3190",
+    "branch": "Senate",
+    "date": 1650899737060,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "16": {
+    "id": "H3459",
+    "branch": "Senate",
+    "date": 1659121629070,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "17": {
+    "id": "H3469",
+    "branch": "Senate",
+    "date": 1636992928670,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "18": {
+    "id": "H3705",
+    "branch": "Senate",
+    "date": 1639670789287,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "19": {
+    "id": "H3709",
+    "branch": "Senate",
+    "date": 1622733120000,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "20": {
+    "id": "H3712",
+    "branch": "Senate",
+    "date": 1642522361913,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "21": {
+    "id": "H3722",
+    "branch": "Senate",
+    "date": 1652973526130,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "22": {
+    "id": "H3724",
+    "branch": "Senate",
+    "date": 1641831325057,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "23": {
+    "id": "H3725",
+    "branch": "Senate",
+    "date": 1642698783457,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "24": {
+    "id": "H3726",
+    "branch": "Senate",
+    "date": 1639412781710,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "25": {
+    "id": "H3745",
+    "branch": "Senate",
+    "date": 1643041619993,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "26": {
+    "id": "H3746",
+    "branch": "Senate",
+    "date": 1639412783163,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "27": {
+    "id": "H3748",
+    "branch": "Senate",
+    "date": 1654529520370,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "28": {
+    "id": "H3749",
+    "branch": "Senate",
+    "date": 1658432883703,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "29": {
+    "id": "H3754",
+    "branch": "Senate",
+    "date": 1634828879840,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "30": {
+    "id": "H3755",
+    "branch": "Senate",
+    "date": 1631805637157,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "31": {
+    "id": "H3760",
+    "branch": "Senate",
+    "date": 1650899737060,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "32": {
+    "id": "H3761",
+    "branch": "Senate",
+    "date": 1648134825787,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "33": {
+    "id": "H3762",
+    "branch": "Senate",
+    "date": 1656522300000,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "34": {
+    "id": "H3764",
+    "branch": "Senate",
+    "date": 1638162000000,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "35": {
+    "id": "H3766",
+    "branch": "Senate",
+    "date": 1656522300000,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "36": {
+    "id": "H3809",
+    "branch": "Senate",
+    "date": 1637769943737,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "37": {
+    "id": "H3813",
+    "branch": "Senate",
+    "date": 1627917470193,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "38": {
+    "id": "H3820",
+    "branch": "Senate",
+    "date": 1637730000000,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "39": {
+    "id": "H3827",
+    "branch": "Senate",
+    "date": 1623079611847,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "40": {
+    "id": "H3854",
+    "branch": "Senate",
+    "date": 1634828879840,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "41": {
+    "id": "H3855",
+    "branch": "Senate",
+    "date": 1634828879840,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "42": {
+    "id": "H3856",
+    "branch": "Senate",
+    "date": 1635354941193,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "43": {
+    "id": "H3859",
+    "branch": "Senate",
+    "date": 1643645795957,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "44": {
+    "id": "H3864",
+    "branch": "Senate",
+    "date": 1658163905453,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "45": {
+    "id": "H387",
+    "branch": "Senate",
+    "date": 1652108711383,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "46": {
+    "id": "H3894",
+    "branch": "Senate",
+    "date": 1651158697320,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "47": {
+    "id": "H3895",
+    "branch": "Senate",
+    "date": 1633540997227,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "48": {
+    "id": "H3896",
+    "branch": "Senate",
+    "date": 1636038996130,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "49": {
+    "id": "H3897",
+    "branch": "Senate",
+    "date": 1632150366010,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "50": {
+    "id": "H3898",
+    "branch": "Senate",
+    "date": 1631202109810,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "51": {
+    "id": "H3905",
+    "branch": "Senate",
+    "date": 1624893262433,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "52": {
+    "id": "H3909",
+    "branch": "Senate",
+    "date": 1645719060650,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "53": {
+    "id": "H3910",
+    "branch": "Senate",
+    "date": 1640016646077,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "54": {
+    "id": "H3914",
+    "branch": "Senate",
+    "date": 1658163905453,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "55": {
+    "id": "H3915",
+    "branch": "Senate",
+    "date": 1644855016330,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "56": {
+    "id": "H3916",
+    "branch": "Senate",
+    "date": 1651158697320,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "57": {
+    "id": "H3919",
+    "branch": "Senate",
+    "date": 1646669673473,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "58": {
+    "id": "H3920",
+    "branch": "Senate",
+    "date": 1640276119287,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "59": {
+    "id": "H3927",
+    "branch": "Senate",
+    "date": 1629126981750,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "60": {
+    "id": "H3935",
+    "branch": "Senate",
+    "date": 1643216400000,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "61": {
+    "id": "H3937",
+    "branch": "Senate",
+    "date": 1649945944070,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "62": {
+    "id": "H3942",
+    "branch": "Senate",
+    "date": 1631027415507,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "63": {
+    "id": "H3947",
+    "branch": "Senate",
+    "date": 1632150366010,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "64": {
+    "id": "H3948",
+    "branch": "Senate",
+    "date": 1635174888240,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "65": {
+    "id": "H3965",
+    "branch": "Senate",
+    "date": 1658432886453,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "66": {
+    "id": "H3970",
+    "branch": "Senate",
+    "date": 1638507600000,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "67": {
+    "id": "H3972",
+    "branch": "Senate",
+    "date": 1631505600000,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "68": {
+    "id": "H3973",
+    "branch": "Senate",
+    "date": 1626883977030,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "69": {
+    "id": "H3975",
+    "branch": "Senate",
+    "date": 1627312691427,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "70": {
+    "id": "H3976",
+    "branch": "Senate",
+    "date": 1627312691427,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "71": {
+    "id": "H3981",
+    "branch": "Senate",
+    "date": 1655392643960,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "72": {
+    "id": "H3986",
+    "branch": "Senate",
+    "date": 1643645795957,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "73": {
+    "id": "H3987",
+    "branch": "Senate",
+    "date": 1643645795957,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "74": {
+    "id": "H3988",
+    "branch": "Senate",
+    "date": 1655133733457,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "75": {
+    "id": "H3995",
+    "branch": "Senate",
+    "date": 1628780736457,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "76": {
+    "id": "H3998",
+    "branch": "Senate",
+    "date": 1649344598650,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "77": {
+    "id": "H3999",
+    "branch": "Senate",
+    "date": 1633540997227,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "78": {
+    "id": "H4002",
+    "branch": "Senate",
+    "date": 1625853171923,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "79": {
+    "id": "H4020",
+    "branch": "Senate",
+    "date": 1641831325057,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "80": {
+    "id": "H4024",
+    "branch": "Senate",
+    "date": 1640621100000,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "81": {
+    "id": "H4066",
+    "branch": "Senate",
+    "date": 1637165279820,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "82": {
+    "id": "H4083",
+    "branch": "Senate",
+    "date": 1642090841050,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "83": {
+    "id": "H4084",
+    "branch": "Senate",
+    "date": 1639670789287,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "84": {
+    "id": "H4092",
+    "branch": "Senate",
+    "date": 1638162000000,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "85": {
+    "id": "H4094",
+    "branch": "Senate",
+    "date": 1637165279820,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "86": {
+    "id": "H4101",
+    "branch": "Senate",
+    "date": 1640016646077,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "87": {
+    "id": "H4103",
+    "branch": "Senate",
+    "date": 1633540997227,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "88": {
+    "id": "H4116",
+    "branch": "Senate",
+    "date": 1641230280950,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "89": {
+    "id": "H4118",
+    "branch": "Senate",
+    "date": 1632410291913,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "90": {
+    "id": "H4123",
+    "branch": "Senate",
+    "date": 1655824570503,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "91": {
+    "id": "H4126",
+    "branch": "Senate",
+    "date": 1648480483403,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "92": {
+    "id": "H4127",
+    "branch": "Senate",
+    "date": 1632762796190,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "93": {
+    "id": "H4128",
+    "branch": "Senate",
+    "date": 1635960458220,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "94": {
+    "id": "H4198",
+    "branch": "Senate",
+    "date": 1652973526130,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "95": {
+    "id": "H4200",
+    "branch": "Senate",
+    "date": 1634238980210,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "96": {
+    "id": "H4205",
+    "branch": "Senate",
+    "date": 1657207169733,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "97": {
+    "id": "H4206",
+    "branch": "Senate",
+    "date": 1657736302697,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "98": {
+    "id": "H4211",
+    "branch": "Senate",
+    "date": 1636952400000,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "99": {
+    "id": "H4217",
+    "branch": "Senate",
+    "date": 1635434121160,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "100": {
+    "id": "H4222",
+    "branch": "Senate",
+    "date": 1643645795957,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "101": {
+    "id": "H4223",
+    "branch": "Senate",
+    "date": 1652713638147,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "102": {
+    "id": "H4231",
+    "branch": "Senate",
+    "date": 1652368134240,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "103": {
+    "id": "H4233",
+    "branch": "Senate",
+    "date": 1652713638147,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "104": {
+    "id": "H4250",
+    "branch": "Senate",
+    "date": 1659216573423,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "105": {
+    "id": "H4252",
+    "branch": "Senate",
+    "date": 1642090841050,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "106": {
+    "id": "H4256",
+    "branch": "Senate",
+    "date": 1637165279820,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "107": {
+    "id": "H4257",
+    "branch": "Senate",
+    "date": 1637165279820,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "108": {
+    "id": "H4259",
+    "branch": "Senate",
+    "date": 1655392643960,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "109": {
+    "id": "H4260",
+    "branch": "Senate",
+    "date": 1640276119287,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "110": {
+    "id": "H4269",
+    "branch": "Senate",
+    "date": 1638507600000,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "111": {
+    "id": "H4284",
+    "branch": "Senate",
+    "date": 1649690615550,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "112": {
+    "id": "H4286",
+    "branch": "Senate",
+    "date": 1651763497283,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "113": {
+    "id": "H4296",
+    "branch": "Senate",
+    "date": 1654529520370,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "114": {
+    "id": "H4302",
+    "branch": "Senate",
+    "date": 1653320273287,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "115": {
+    "id": "H4313",
+    "branch": "Senate",
+    "date": 1652973526130,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "116": {
+    "id": "H4315",
+    "branch": "Senate",
+    "date": 1646936641907,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "117": {
+    "id": "H4316",
+    "branch": "Senate",
+    "date": 1659319650810,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "118": {
+    "id": "H4323",
+    "branch": "Senate",
+    "date": 1659283951417,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "119": {
+    "id": "H4332",
+    "branch": "Senate",
+    "date": 1659121630727,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "120": {
+    "id": "H4333",
+    "branch": "Senate",
+    "date": 1659121632333,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "121": {
+    "id": "H4338",
+    "branch": "Senate",
+    "date": 1659338802143,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "122": {
+    "id": "H4341",
+    "branch": "Senate",
+    "date": 1658163905453,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "123": {
+    "id": "H4345",
+    "branch": "Senate",
+    "date": 1643905062820,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "124": {
+    "id": "H4353",
+    "branch": "Senate",
+    "date": 1649690615550,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "125": {
+    "id": "H4442",
+    "branch": "Senate",
+    "date": 1658861466913,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "126": {
+    "id": "H4443",
+    "branch": "Senate",
+    "date": 1658861469477,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "127": {
+    "id": "H4501",
+    "branch": "Senate",
+    "date": 1649945944070,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "128": {
+    "id": "H4523",
+    "branch": "Senate",
+    "date": 1652368134240,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "129": {
+    "id": "H4528",
+    "branch": "Senate",
+    "date": 1655998021003,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "130": {
+    "id": "H4554",
+    "branch": "Senate",
+    "date": 1658116800000,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "131": {
+    "id": "H4555",
+    "branch": "Senate",
+    "date": 1653320273287,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "132": {
+    "id": "H4578",
+    "branch": "Senate",
+    "date": 1648739950677,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "133": {
+    "id": "H4580",
+    "branch": "Senate",
+    "date": 1648480483403,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "134": {
+    "id": "H4593",
+    "branch": "Senate",
+    "date": 1651158697320,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "135": {
+    "id": "H4708",
+    "branch": "Senate",
+    "date": 1654488000000,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "136": {
+    "id": "H4764",
+    "branch": "Senate",
+    "date": 1658443269147,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "137": {
+    "id": "H4792",
+    "branch": "Senate",
+    "date": 1659283964043,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "138": {
+    "id": "H4805",
+    "branch": "Senate",
+    "date": 1653599551050,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "139": {
+    "id": "H4823",
+    "branch": "Senate",
+    "date": 1658376000000,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "140": {
+    "id": "H4832",
+    "branch": "Senate",
+    "date": 1659039288800,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "141": {
+    "id": "H4838",
+    "branch": "Senate",
+    "date": 1656342714537,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "142": {
+    "id": "H4860",
+    "branch": "Senate",
+    "date": 1658855878827,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "143": {
+    "id": "H4870",
+    "branch": "Senate",
+    "date": 1659315436967,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "144": {
+    "id": "H4875",
+    "branch": "Senate",
+    "date": 1658163905453,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "145": {
+    "id": "H4911",
+    "branch": "Senate",
+    "date": 1656342714537,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "146": {
+    "id": "H4932",
+    "branch": "Senate",
+    "date": 1657552461070,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "147": {
+    "id": "H4981",
+    "branch": "Senate",
+    "date": 1659319653437,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "148": {
+    "id": "H5016",
+    "branch": "Senate",
+    "date": 1659338803690,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "149": {
+    "id": "H5045",
+    "branch": "Senate",
+    "date": 1659045496793,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "150": {
+    "id": "H5047",
+    "branch": "Senate",
+    "date": 1659338840927,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "151": {
+    "id": "H5050",
+    "branch": "Senate",
+    "date": 1658163905453,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "152": {
+    "id": "H5052",
+    "branch": "Senate",
+    "date": 1659216577860,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "153": {
+    "id": "H5060",
+    "branch": "Senate",
+    "date": 1658449082780,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "154": {
+    "id": "H5090",
+    "branch": "Senate",
+    "date": 1658869200197,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "155": {
+    "id": "H5104",
+    "branch": "Senate",
+    "date": 1659128413197,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "156": {
+    "id": "H5106",
+    "branch": "Senate",
+    "date": 1659045543400,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "157": {
+    "id": "H5159",
+    "branch": "Senate",
+    "date": 1659338805190,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "158": {
+    "id": "H5164",
+    "branch": "Senate",
+    "date": 1659363137157,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "159": {
+    "id": "H54",
+    "branch": "Senate",
+    "date": 1611247275347,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "160": {
+    "id": "H67",
+    "branch": "Senate",
+    "date": 1614269544787,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "161": {
+    "id": "H72",
+    "branch": "Senate",
+    "date": 1614878681963,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "162": {
+    "id": "H73",
+    "branch": "Senate",
+    "date": 1615501185063,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "163": {
+    "id": "H901",
+    "branch": "Senate",
+    "date": 1658808000000,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "164": {
+    "id": "H92",
+    "branch": "Senate",
+    "date": 1623643200000,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "165": {
+    "id": "H93",
+    "branch": "Senate",
+    "date": 1634238949807,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "166": {
+    "id": "H94",
+    "branch": "Senate",
+    "date": 1629126981750,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "167": {
+    "id": "H98",
+    "branch": "Senate",
+    "date": 1623079611847,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "168": {
+    "id": "H99",
+    "branch": "Senate",
+    "date": 1617635831270,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "169": {
+    "id": "S1340",
+    "branch": "Senate",
+    "date": 1634224604587,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "170": {
+    "id": "S1362",
+    "branch": "Senate",
+    "date": 1640016646077,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "171": {
+    "id": "S1364",
+    "branch": "Senate",
+    "date": 1633540997227,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "172": {
+    "id": "S15",
+    "branch": "Senate",
+    "date": 1616450841143,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "173": {
+    "id": "S1734",
+    "branch": "Senate",
+    "date": 1633540997227,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "174": {
+    "id": "S1747",
+    "branch": "Senate",
+    "date": 1654787772890,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "175": {
+    "id": "S2380",
+    "branch": "Senate",
+    "date": 1657034299300,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "176": {
+    "id": "S24",
+    "branch": "Senate",
+    "date": 1618931875657,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "177": {
+    "id": "S2447",
+    "branch": "Senate",
+    "date": 1637730000000,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "178": {
+    "id": "S2449",
+    "branch": "Senate",
+    "date": 1630595292240,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "179": {
+    "id": "S2450",
+    "branch": "Senate",
+    "date": 1630595292240,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "180": {
+    "id": "S2464",
+    "branch": "Senate",
+    "date": 1636587259070,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "181": {
+    "id": "S2475",
+    "branch": "Senate",
+    "date": 1623781080000,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "182": {
+    "id": "S2477",
+    "branch": "Senate",
+    "date": 1652713638147,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "183": {
+    "id": "S2479",
+    "branch": "Senate",
+    "date": 1632150366010,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "184": {
+    "id": "S2487",
+    "branch": "Senate",
+    "date": 1630336427190,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "185": {
+    "id": "S2498",
+    "branch": "Senate",
+    "date": 1652713638147,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "186": {
+    "id": "S2523",
+    "branch": "Senate",
+    "date": 1646065371457,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "187": {
+    "id": "S2526",
+    "branch": "Senate",
+    "date": 1652973526130,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "188": {
+    "id": "S2550",
+    "branch": "Senate",
+    "date": 1641790800000,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "189": {
+    "id": "S2557",
+    "branch": "Senate",
+    "date": 1637730000000,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "190": {
+    "id": "S2561",
+    "branch": "Senate",
+    "date": 1639412780227,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "191": {
+    "id": "S2563",
+    "branch": "Senate",
+    "date": 1635434121160,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "192": {
+    "id": "S2566",
+    "branch": "Senate",
+    "date": 1642698783457,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "193": {
+    "id": "S2573",
+    "branch": "Senate",
+    "date": 1644250089247,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "194": {
+    "id": "S2587",
+    "branch": "Senate",
+    "date": 1646669673473,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "195": {
+    "id": "S2588",
+    "branch": "Senate",
+    "date": 1648134825787,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "196": {
+    "id": "S2591",
+    "branch": "Senate",
+    "date": 1652713638147,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "197": {
+    "id": "S2592",
+    "branch": "Senate",
+    "date": 1642522361913,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "198": {
+    "id": "S2603",
+    "branch": "Senate",
+    "date": 1640016646077,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "199": {
+    "id": "S2610",
+    "branch": "Senate",
+    "date": 1643041619993,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "200": {
+    "id": "S2616",
+    "branch": "Senate",
+    "date": 1649085618757,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "201": {
+    "id": "S2654",
+    "branch": "Senate",
+    "date": 1645719060650,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "202": {
+    "id": "S2686",
+    "branch": "Senate",
+    "date": 1653580213637,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "203": {
+    "id": "S2694",
+    "branch": "Senate",
+    "date": 1653493009457,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "204": {
+    "id": "S2702",
+    "branch": "Senate",
+    "date": 1650553556657,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "205": {
+    "id": "S2703",
+    "branch": "Senate",
+    "date": 1657825814587,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "206": {
+    "id": "S2705",
+    "branch": "Senate",
+    "date": 1657207169733,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "207": {
+    "id": "S2706",
+    "branch": "Senate",
+    "date": 1650899737060,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "208": {
+    "id": "S2775",
+    "branch": "Senate",
+    "date": 1648094400000,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "209": {
+    "id": "S2778",
+    "branch": "Senate",
+    "date": 1655392643960,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "210": {
+    "id": "S2788",
+    "branch": "Senate",
+    "date": 1655133733457,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "211": {
+    "id": "S2792",
+    "branch": "Senate",
+    "date": 1650553556657,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "212": {
+    "id": "S2799",
+    "branch": "Senate",
+    "date": 1658432488970,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "213": {
+    "id": "S2841",
+    "branch": "Senate",
+    "date": 1656342714537,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "214": {
+    "id": "S2863",
+    "branch": "Senate",
+    "date": 1655133733457,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "215": {
+    "id": "S2884",
+    "branch": "Senate",
+    "date": 1655133733457,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "216": {
+    "id": "S2924",
+    "branch": "Senate",
+    "date": 1655392643960,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "217": {
+    "id": "S2965",
+    "branch": "Senate",
+    "date": 1659042232053,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "218": {
+    "id": "S2985",
+    "branch": "Senate",
+    "date": 1657837581493,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "219": {
+    "id": "S2990",
+    "branch": "Senate",
+    "date": 1658376000000,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "220": {
+    "id": "S3075",
+    "branch": "Senate",
+    "date": 1659129704317,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "221": {
+    "id": "S3096",
+    "branch": "Senate",
+    "date": 1659334585737,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "222": {
+    "id": "S3097",
+    "branch": "Senate",
+    "date": 1659362087160,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "223": {
+    "id": "S31",
+    "branch": "Senate",
+    "date": 1620055201317,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "224": {
+    "id": "S33",
+    "branch": "Senate",
+    "date": 1617635831270,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "225": {
+    "id": "S37",
+    "branch": "Senate",
+    "date": 1616450857517,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "226": {
+    "id": "S41",
+    "branch": "Senate",
+    "date": 1620878400000,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "227": {
+    "id": "S493",
+    "branch": "Senate",
+    "date": 1627917470193,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "228": {
+    "id": "S535",
+    "branch": "Senate",
+    "date": 1657207169733,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "229": {
+    "id": "S6",
+    "branch": "Senate",
+    "date": 1611591628577,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "230": {
+    "id": "S9",
+    "branch": "Senate",
+    "date": 1611850326720,
+    "type": "Enacted",
+    "info": "laid before the Governor",
+    "yeas": null,
+    "nays": null
+  },
+  "231": {
+    "id": "H2182",
+    "branch": "House",
+    "date": 1655956800000,
+    "type": "Enacted",
+    "info": "155 YEAS to 0 NAYS (See YEA and NAY No. 203)",
+    "yeas": "155",
+    "nays": "0"
+  },
+  "232": {
+    "id": "H2189",
+    "branch": "House",
+    "date": 1632369600000,
+    "type": "Enacted",
+    "info": "159 YEAS to 0 NAYS (See YEA and NAY No. 91)",
+    "yeas": "159",
+    "nays": "0"
+  },
+  "233": {
+    "id": "H2193",
+    "branch": "House",
+    "date": 1642568400000,
+    "type": "Enacted",
+    "info": "159 YEAS to 0 NAYS (See YEA and NAY No. 125)",
+    "yeas": "159",
+    "nays": "0"
+  },
+  "234": {
+    "id": "H3178",
+    "branch": "House",
+    "date": 1637125200000,
+    "type": "Enacted",
+    "info": "159 YEAS to 0 NAYS (See YEA and NAY No. 121)",
+    "yeas": "159",
+    "nays": "0"
+  },
+  "235": {
+    "id": "H3751",
+    "branch": "House",
+    "date": 1658376000000,
+    "type": "Enacted",
+    "info": "153 YEAS to 0 NAYS (See YEA and NAY No. 223)",
+    "yeas": "153",
+    "nays": "0"
+  },
+  "236": {
+    "id": "H3770",
+    "branch": "House",
+    "date": 1621310400000,
+    "type": "Enacted",
+    "info": "160 YEAS to 0 NAYS (See YEA and NAY No. 36)",
+    "yeas": "160",
+    "nays": "0"
+  },
+  "237": {
+    "id": "H3867",
+    "branch": "House",
+    "date": 1644987600000,
+    "type": "Enacted",
+    "info": "156 YEAS to 0 NAYS (See YEA and NAY No. 148)",
+    "yeas": "156",
+    "nays": "0"
+  },
+  "238": {
+    "id": "H3900",
+    "branch": "House",
+    "date": 1644469200000,
+    "type": "Enacted",
+    "info": "158 YEAS to 0 NAYS (See YEA and NAY No. 142)",
+    "yeas": "158",
+    "nays": "0"
+  },
+  "239": {
+    "id": "H3903",
+    "branch": "House",
+    "date": 1626321600000,
+    "type": "Enacted",
+    "info": "160 YEAS to 0 NAYS ( See YEA and NAY No. 70)",
+    "yeas": "160",
+    "nays": "0"
+  },
+  "240": {
+    "id": "H3936",
+    "branch": "House",
+    "date": 1658808000000,
+    "type": "Enacted",
+    "info": "152 YEAS to 0 NAYS (See YEA and NAY, No. 234)",
+    "yeas": "152",
+    "nays": "0"
+  },
+  "241": {
+    "id": "H3996",
+    "branch": "House",
+    "date": 1642568400000,
+    "type": "Enacted",
+    "info": "159 YEAS to 0 NAYS (See YEA and NAY No. 126)",
+    "yeas": "159",
+    "nays": "0"
+  },
+  "242": {
+    "id": "H3999",
+    "branch": "House",
+    "date": 1633492800000,
+    "type": "Enacted",
+    "info": "157 YEAS to 0 NAYS (See YEA and NAY No. 106)",
+    "yeas": "157",
+    "nays": "0"
+  },
+  "243": {
+    "id": "H4002",
+    "branch": "House",
+    "date": 1625803200000,
+    "type": "Enacted",
+    "info": "159 YEAS to 0 NAYS (See YEA and NAY No. 68)",
+    "yeas": "159",
+    "nays": "0"
+  },
+  "244": {
+    "id": "H4108",
+    "branch": "House",
+    "date": 1647489600000,
+    "type": "Enacted",
+    "info": "154 YEAS to 0 NAYS (See YEA and NAY No. 159)",
+    "yeas": "154",
+    "nays": "0"
+  },
+  "245": {
+    "id": "H4118",
+    "branch": "House",
+    "date": 1632369600000,
+    "type": "Enacted",
+    "info": "158 YEAS to 1 NAYS (See YEA and NAY No. 102)",
+    "yeas": "158",
+    "nays": "1"
+  },
+  "246": {
+    "id": "H4197",
+    "branch": "House",
+    "date": 1657771200000,
+    "type": "Enacted",
+    "info": "154 YEAS to 0 NAYS (See YEA and NAY No. 217)",
+    "yeas": "154",
+    "nays": "0"
+  },
+  "247": {
+    "id": "H4215",
+    "branch": "House",
+    "date": 1658980800000,
+    "type": "Enacted",
+    "info": "153 YEAS to 0 NAYS (See YEA and NAY No. 240)",
+    "yeas": "153",
+    "nays": "0"
+  },
+  "248": {
+    "id": "H4251",
+    "branch": "House",
+    "date": 1643259600000,
+    "type": "Enacted",
+    "info": "158 YEAS to 0 NAYS (See YEA and NAY No. 130)",
+    "yeas": "158",
+    "nays": "0"
+  },
+  "249": {
+    "id": "H4321",
+    "branch": "House",
+    "date": 1659153600000,
+    "type": "Enacted",
+    "info": "153 YEAS to 0 NAYS (See YEA and NAY No. 258)",
+    "yeas": "153",
+    "nays": "0"
+  },
+  "250": {
+    "id": "H4360",
+    "branch": "House",
+    "date": 1655352000000,
+    "type": "Enacted",
+    "info": "155 YEAS to 0 NAYS (See YEA and NAY No. 199)",
+    "yeas": "155",
+    "nays": "0"
+  },
+  "251": {
+    "id": "H4432",
+    "branch": "House",
+    "date": 1650945600000,
+    "type": "Enacted",
+    "info": "156 YEAS to 0 NAYS (See YEA and NAY No. 172)",
+    "yeas": "156",
+    "nays": "0"
+  },
+  "252": {
+    "id": "H4519",
+    "branch": "House",
+    "date": 1658808000000,
+    "type": "Enacted",
+    "info": "152 YEAS to 0 NAYS (See YEA and NAY, No. 235)",
+    "yeas": "152",
+    "nays": "0"
+  },
+  "253": {
+    "id": "H4631",
+    "branch": "House",
+    "date": 1658980800000,
+    "type": "Enacted",
+    "info": "153 YEAS to 0 NAYS (See YEA and NAY No. 241)",
+    "yeas": "153",
+    "nays": "0"
+  },
+  "254": {
+    "id": "H4638",
+    "branch": "House",
+    "date": 1655352000000,
+    "type": "Enacted",
+    "info": "155 YEAS to 0 NAYS (See YEA and NAY No. 198)",
+    "yeas": "155",
+    "nays": "0"
+  },
+  "255": {
+    "id": "H4794",
+    "branch": "House",
+    "date": 1659153600000,
+    "type": "Enacted",
+    "info": "153 YEAS to 0 NAYS (See YEA and NAY No. 257)",
+    "yeas": "153",
+    "nays": "0"
+  },
+  "256": {
+    "id": "H4805",
+    "branch": "House",
+    "date": 1653537600000,
+    "type": "Enacted",
+    "info": "117 YEAS to 36 NAYS (See YEA and NAY No. 191)",
+    "yeas": "117",
+    "nays": "36"
+  },
+  "257": {
+    "id": "H4900",
+    "branch": "House",
+    "date": 1659067200000,
+    "type": "Enacted",
+    "info": "153 YEAS to 0 NAYS (See YEA and NAY No. 253)",
+    "yeas": "153",
+    "nays": "0"
+  },
+  "258": {
+    "id": "H4901",
+    "branch": "House",
+    "date": 1658808000000,
+    "type": "Enacted",
+    "info": "153 YEAS to 0 NAYS (See YEA and NAY No. 231)",
+    "yeas": "153",
+    "nays": "0"
+  },
+  "259": {
+    "id": "H4946",
+    "branch": "House",
+    "date": 1659153600000,
+    "type": "Enacted",
+    "info": "153 YEAS to 0 NAYS (See YEA and NAY No. 256)",
+    "yeas": "153",
+    "nays": "0"
+  },
+  "260": {
+    "id": "H4979",
+    "branch": "House",
+    "date": 1658980800000,
+    "type": "Enacted",
+    "info": "153 YEAS to 0 NAYS (See YEA and NAY No. 243)",
+    "yeas": "153",
+    "nays": "0"
+  },
+  "261": {
+    "id": "H4986",
+    "branch": "House",
+    "date": 1658980800000,
+    "type": "Enacted",
+    "info": "153 YEAS to 0 NAYS (See YEA and NAY No. 242)",
+    "yeas": "153",
+    "nays": "0"
+  },
+  "262": {
+    "id": "H5048",
+    "branch": "House",
+    "date": 1658980800000,
+    "type": "Enacted",
+    "info": "153 YEAS to 0 NAYS (See YEA and NAY No. 244)",
+    "yeas": "153",
+    "nays": "0"
+  },
+  "263": {
+    "id": "H5049",
+    "branch": "House",
+    "date": 1659067200000,
+    "type": "Enacted",
+    "info": "153 YEAS to 0 NAYS (See YEA and NAY No. 247)",
+    "yeas": "153",
+    "nays": "0"
+  },
+  "264": {
+    "id": "H5050",
+    "branch": "House",
+    "date": 1658116800000,
+    "type": "Enacted",
+    "info": "153 YEAS to 0 NAYS (See YEA and NAY, No. 221)",
+    "yeas": "153",
+    "nays": "0"
+  },
+  "265": {
+    "id": "H5060",
+    "branch": "House",
+    "date": 1658376000000,
+    "type": "Enacted",
+    "info": "146 YEAS to 7 NAYS (See YEA and NAY No. 229)",
+    "yeas": "146",
+    "nays": "7"
+  },
+  "266": {
+    "id": "H5065",
+    "branch": "House",
+    "date": 1658808000000,
+    "type": "Enacted",
+    "info": "153 YEAS to 0 NAYS (See YEA and NAY, No. 233)",
+    "yeas": "153",
+    "nays": "0"
+  },
+  "267": {
+    "id": "H5090",
+    "branch": "House",
+    "date": 1658808000000,
+    "type": "Enacted",
+    "info": "137 YEAS to 16 NAYS (See YEA and NAY No. 236)",
+    "yeas": "137",
+    "nays": "16"
+  },
+  "268": {
+    "id": "H5095",
+    "branch": "House",
+    "date": 1659326400000,
+    "type": "Enacted",
+    "info": "153 YEAS to 0 NAYS (See YEA and NAY No. 284)",
+    "yeas": "153",
+    "nays": "0"
+  },
+  "269": {
+    "id": "H5106",
+    "branch": "House",
+    "date": 1658980800000,
+    "type": "Enacted",
+    "info": "153 YEAS to 0 NAYS (See YEA and NAY No. 245)",
+    "yeas": "153",
+    "nays": "0"
+  },
+  "270": {
+    "id": "H5142",
+    "branch": "House",
+    "date": 1659240000000,
+    "type": "Enacted",
+    "info": "153 YEAS to 0 NAYS (See YEA and NAY, No. 260)",
+    "yeas": "153",
+    "nays": "0"
+  },
+  "271": {
+    "id": "H5151",
+    "branch": "House",
+    "date": 1659240000000,
+    "type": "Enacted",
+    "info": "153 YEAS to 0 NAYS (See YEA and NAY, No. 270)",
+    "yeas": "153",
+    "nays": "0"
+  },
+  "272": {
+    "id": "H5155",
+    "branch": "House",
+    "date": 1659326400000,
+    "type": "Enacted",
+    "info": "153 YEAS to 0 NAYS (See YEA and NAY No. 281)",
+    "yeas": "153",
+    "nays": "0"
+  },
+  "273": {
+    "id": "H5161",
+    "branch": "House",
+    "date": 1659326400000,
+    "type": "Enacted",
+    "info": "153 YEAS to 0 NAYS (See YEA and NAY No. 283)",
+    "yeas": "153",
+    "nays": "0"
+  },
+  "274": {
+    "id": "H5163",
+    "branch": "House",
+    "date": 1659326400000,
+    "type": "Enacted",
+    "info": "147 YEAS to 6 NAYS (See YEA and NAY No. 285)",
+    "yeas": "147",
+    "nays": "6"
+  },
+  "275": {
+    "id": "H5164",
+    "branch": "House",
+    "date": 1659326400000,
+    "type": "Enacted",
+    "info": "151 YEAS to 2 NAYS (See YEA and NAY No. 286)",
+    "yeas": "151",
+    "nays": "2"
+  },
+  "276": {
+    "id": "H90",
+    "branch": "House",
+    "date": 1616644800000,
+    "type": "Enacted",
+    "info": "157 YEAS to 0 NAYS (See YEA and NAY No. 17)",
+    "yeas": "157",
+    "nays": "0"
+  },
+  "277": {
+    "id": "S1353",
+    "branch": "House",
+    "date": 1642568400000,
+    "type": "Enacted",
+    "info": "159 YEAS to 0 NAYS (See YEA and NAY No. 124)",
+    "yeas": "159",
+    "nays": "0"
+  },
+  "278": {
+    "id": "S1357",
+    "branch": "House",
+    "date": 1650945600000,
+    "type": "Enacted",
+    "info": "155 YEAS to 0 NAYS (See YEA and NAY No. 171)",
+    "yeas": "155",
+    "nays": "0"
+  },
+  "279": {
+    "id": "S2475",
+    "branch": "House",
+    "date": 1623729600000,
+    "type": "Enacted",
+    "info": "150 YEAS to 10 NAYS (See YEA and NAY No. 46)",
+    "yeas": "150",
+    "nays": "10"
+  },
+  "280": {
+    "id": "S2732",
+    "branch": "House",
+    "date": 1652846400000,
+    "type": "Enacted",
+    "info": "155 YEAS to 0 NAYS (See YEA and NAY No. 183)",
+    "yeas": "155",
+    "nays": "0"
+  },
+  "281": {
+    "id": "S29",
+    "branch": "House",
+    "date": 1642568400000,
+    "type": "Enacted",
+    "info": "159 YEAS to 0 NAYS ( See YEA and NAY No. 123)",
+    "yeas": "159",
+    "nays": "0"
+  },
+  "282": {
+    "id": "S2924",
+    "branch": "House",
+    "date": 1655352000000,
+    "type": "Enacted",
+    "info": "126 YEAS to 29 NAYS (See YEA and NAY No. 200)",
+    "yeas": "126",
+    "nays": "29"
+  },
+  "283": {
+    "id": "S3004",
+    "branch": "House",
+    "date": 1659240000000,
+    "type": "Enacted",
+    "info": "153 YEAS to 0 NAYS (See YEA and NAY, No. 274)",
+    "yeas": "153",
+    "nays": "0"
+  },
+  "284": {
+    "id": "S3020",
+    "branch": "House",
+    "date": 1659326400000,
+    "type": "Enacted",
+    "info": "153 YEAS to 0 NAYS (See YEA and NAY No. 280)",
+    "yeas": "153",
+    "nays": "0"
+  },
+  "285": {
+    "id": "S3029",
+    "branch": "House",
+    "date": 1658980800000,
+    "type": "Enacted",
+    "info": "153 YEAS to 0 NAYS (See YEA and NAY No. 239)",
+    "yeas": "153",
+    "nays": "0"
+  },
+  "286": {
+    "id": "S3031",
+    "branch": "House",
+    "date": 1659240000000,
+    "type": "Enacted",
+    "info": "153 YEAS to 0 NAYS (See YEA and NAY, No. 271)",
+    "yeas": "153",
+    "nays": "0"
+  },
+  "287": {
+    "id": "S3053",
+    "branch": "House",
+    "date": 1659240000000,
+    "type": "Enacted",
+    "info": "153 YEAS to 0 NAYS (See YEA and NAY, No. 273)",
+    "yeas": "153",
+    "nays": "0"
+  },
+  "288": {
+    "id": "S3062",
+    "branch": "House",
+    "date": 1659240000000,
+    "type": "Enacted",
+    "info": "153 YEAS to 0 NAYS (See YEA and NAY, No. 272)",
+    "yeas": "153",
+    "nays": "0"
+  },
+  "289": {
+    "id": "S3064",
+    "branch": "House",
+    "date": 1659240000000,
+    "type": "Enacted",
+    "info": "153 YEAS to 0 NAYS (See YEA and NAY, No. 278)",
+    "yeas": "153",
+    "nays": "0"
+  },
+  "290": {
+    "id": "S3065",
+    "branch": "House",
+    "date": 1659240000000,
+    "type": "Enacted",
+    "info": "153 YEAS to 0 NAYS (See YEA and NAY, No. 275)",
+    "yeas": "153",
+    "nays": "0"
+  },
+  "291": {
+    "id": "S3073",
+    "branch": "House",
+    "date": 1659240000000,
+    "type": "Enacted",
+    "info": "153 YEAS to 0 NAYS (See YEA and NAY, No. 279)",
+    "yeas": "153",
+    "nays": "0"
+  },
+  "292": {
+    "id": "S3075",
+    "branch": "House",
+    "date": 1659067200000,
+    "type": "Enacted",
+    "info": "153 YEAS to 0 NAYS (See YEA and NAY No. 251)",
+    "yeas": "153",
+    "nays": "0"
+  },
+  "293": {
+    "id": "S3088",
+    "branch": "House",
+    "date": 1659326400000,
+    "type": "Enacted",
+    "info": "153 YEAS to 0 NAYS (See YEA and NAY No. 282)",
+    "yeas": "153",
+    "nays": "0"
+  },
+  "294": {
+    "id": "S3090",
+    "branch": "House",
+    "date": 1659240000000,
+    "type": "Enacted",
+    "info": "153 YEAS to 0 NAYS (See YEA and NAY, No. 277)",
+    "yeas": "153",
+    "nays": "0"
+  },
+  "295": {
+    "id": "S3091",
+    "branch": "House",
+    "date": 1659240000000,
+    "type": "Enacted",
+    "info": "153 YEAS to 0 NAYS (See YEA and NAY, No. 276)",
+    "yeas": "153",
+    "nays": "0"
+  },
+  "296": {
+    "id": "S9",
+    "branch": "House",
+    "date": 1611810000000,
+    "type": "Enacted",
+    "info": "144 YEAS to 14 NAYS (See YEA and NAY No. 3)",
+    "yeas": "144",
+    "nays": "14"
+  }
+}
