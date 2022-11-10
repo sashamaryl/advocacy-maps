@@ -1,7 +1,9 @@
+import { CosponsorsGraph } from "components/bill/CosponsorsGraph"
+import { DonutChart } from "components/bill/DonutChart"
+import { LineChart } from "components/bill/LineChart"
+import { Template } from "runtypes/lib/types/template"
 import { createMeta } from "stories/utils"
-
-// TODO: move into components directory
-const BillOverviewCard = () => <div>TODO</div>
+import { BillOverviewCard } from "../../../components/bill/BillOverviewCard"
 
 export default createMeta({
   title: "Dashboard/Mission Center/BillOverviewCard",
@@ -10,4 +12,6 @@ export default createMeta({
   component: BillOverviewCard
 })
 
-export const Primary = () => <BillOverviewCard />
+export const Line = () => <LineChart />
+export const Donut = () => <DonutChart />
+export const Cosponsors = () => <CosponsorsGraph />

@@ -1,0 +1,1572 @@
+{
+  "0": {
+    "id": 0,
+    "stance": "endorse",
+    "date": 1609459200000,
+    "stanceCounts": {
+      "endorse": 1,
+      "neutral": 0,
+      "oppose": 0
+    }
+  },
+  "1": {
+    "id": 1,
+    "stance": "endorse",
+    "date": 1609545600000,
+    "stanceCounts": {
+      "endorse": 2,
+      "neutral": 0,
+      "oppose": 0
+    }
+  },
+  "2": {
+    "id": 2,
+    "stance": "neutral",
+    "date": 1609632000000,
+    "stanceCounts": {
+      "endorse": 2,
+      "neutral": 1,
+      "oppose": 0
+    }
+  },
+  "3": {
+    "id": 3,
+    "stance": "oppose",
+    "date": 1609718400000,
+    "stanceCounts": {
+      "endorse": 2,
+      "neutral": 1,
+      "oppose": 1
+    }
+  },
+  "4": {
+    "id": 4,
+    "stance": "oppose",
+    "date": 1609804800000,
+    "stanceCounts": {
+      "endorse": 2,
+      "neutral": 1,
+      "oppose": 2
+    }
+  },
+  "5": {
+    "id": 5,
+    "stance": "neutral",
+    "date": 1609891200000,
+    "stanceCounts": {
+      "endorse": 2,
+      "neutral": 2,
+      "oppose": 2
+    }
+  },
+  "6": {
+    "id": 6,
+    "stance": "endorse",
+    "date": 1609977600000,
+    "stanceCounts": {
+      "endorse": 3,
+      "neutral": 2,
+      "oppose": 2
+    }
+  },
+  "7": {
+    "id": 7,
+    "stance": "endorse",
+    "date": 1610064000000,
+    "stanceCounts": {
+      "endorse": 4,
+      "neutral": 2,
+      "oppose": 2
+    }
+  },
+  "8": {
+    "id": 8,
+    "stance": "oppose",
+    "date": 1610150400000,
+    "stanceCounts": {
+      "endorse": 4,
+      "neutral": 2,
+      "oppose": 3
+    }
+  },
+  "9": {
+    "id": 9,
+    "stance": "oppose",
+    "date": 1610236800000,
+    "stanceCounts": {
+      "endorse": 4,
+      "neutral": 2,
+      "oppose": 4
+    }
+  },
+  "10": {
+    "id": 10,
+    "stance": "endorse",
+    "date": 1610323200000,
+    "stanceCounts": {
+      "endorse": 5,
+      "neutral": 2,
+      "oppose": 4
+    }
+  },
+  "11": {
+    "id": 11,
+    "stance": "endorse",
+    "date": 1610409600000,
+    "stanceCounts": {
+      "endorse": 6,
+      "neutral": 2,
+      "oppose": 4
+    }
+  },
+  "12": {
+    "id": 12,
+    "stance": "endorse",
+    "date": 1610496000000,
+    "stanceCounts": {
+      "endorse": 7,
+      "neutral": 2,
+      "oppose": 4
+    }
+  },
+  "13": {
+    "id": 13,
+    "stance": "oppose",
+    "date": 1610582400000,
+    "stanceCounts": {
+      "endorse": 7,
+      "neutral": 2,
+      "oppose": 5
+    }
+  },
+  "14": {
+    "id": 14,
+    "stance": "oppose",
+    "date": 1610668800000,
+    "stanceCounts": {
+      "endorse": 7,
+      "neutral": 2,
+      "oppose": 6
+    }
+  },
+  "15": {
+    "id": 15,
+    "stance": "endorse",
+    "date": 1610755200000,
+    "stanceCounts": {
+      "endorse": 8,
+      "neutral": 2,
+      "oppose": 6
+    }
+  },
+  "16": {
+    "id": 16,
+    "stance": "oppose",
+    "date": 1610841600000,
+    "stanceCounts": {
+      "endorse": 8,
+      "neutral": 2,
+      "oppose": 7
+    }
+  },
+  "17": {
+    "id": 17,
+    "stance": "endorse",
+    "date": 1610928000000,
+    "stanceCounts": {
+      "endorse": 9,
+      "neutral": 2,
+      "oppose": 7
+    }
+  },
+  "18": {
+    "id": 18,
+    "stance": "endorse",
+    "date": 1611014400000,
+    "stanceCounts": {
+      "endorse": 10,
+      "neutral": 2,
+      "oppose": 7
+    }
+  },
+  "19": {
+    "id": 19,
+    "stance": "endorse",
+    "date": 1611100800000,
+    "stanceCounts": {
+      "endorse": 11,
+      "neutral": 2,
+      "oppose": 7
+    }
+  },
+  "20": {
+    "id": 20,
+    "stance": "oppose",
+    "date": 1611187200000,
+    "stanceCounts": {
+      "endorse": 11,
+      "neutral": 2,
+      "oppose": 8
+    }
+  },
+  "21": {
+    "id": 21,
+    "stance": "endorse",
+    "date": 1611273600000,
+    "stanceCounts": {
+      "endorse": 12,
+      "neutral": 2,
+      "oppose": 8
+    }
+  },
+  "22": {
+    "id": 22,
+    "stance": "endorse",
+    "date": 1611360000000,
+    "stanceCounts": {
+      "endorse": 13,
+      "neutral": 2,
+      "oppose": 8
+    }
+  },
+  "23": {
+    "id": 23,
+    "stance": "neutral",
+    "date": 1611446400000,
+    "stanceCounts": {
+      "endorse": 13,
+      "neutral": 3,
+      "oppose": 8
+    }
+  },
+  "24": {
+    "id": 24,
+    "stance": "endorse",
+    "date": 1611532800000,
+    "stanceCounts": {
+      "endorse": 14,
+      "neutral": 3,
+      "oppose": 8
+    }
+  },
+  "25": {
+    "id": 25,
+    "stance": "oppose",
+    "date": 1611619200000,
+    "stanceCounts": {
+      "endorse": 14,
+      "neutral": 3,
+      "oppose": 9
+    }
+  },
+  "26": {
+    "id": 26,
+    "stance": "neutral",
+    "date": 1611705600000,
+    "stanceCounts": {
+      "endorse": 14,
+      "neutral": 4,
+      "oppose": 9
+    }
+  },
+  "27": {
+    "id": 27,
+    "stance": "neutral",
+    "date": 1611792000000,
+    "stanceCounts": {
+      "endorse": 14,
+      "neutral": 5,
+      "oppose": 9
+    }
+  },
+  "28": {
+    "id": 28,
+    "stance": "endorse",
+    "date": 1611878400000,
+    "stanceCounts": {
+      "endorse": 15,
+      "neutral": 5,
+      "oppose": 9
+    }
+  },
+  "29": {
+    "id": 29,
+    "stance": "oppose",
+    "date": 1611964800000,
+    "stanceCounts": {
+      "endorse": 15,
+      "neutral": 5,
+      "oppose": 10
+    }
+  },
+  "30": {
+    "id": 30,
+    "stance": "neutral",
+    "date": 1612051200000,
+    "stanceCounts": {
+      "endorse": 15,
+      "neutral": 6,
+      "oppose": 10
+    }
+  },
+  "31": {
+    "id": 31,
+    "stance": "neutral",
+    "date": 1612137600000,
+    "stanceCounts": {
+      "endorse": 15,
+      "neutral": 7,
+      "oppose": 10
+    }
+  },
+  "32": {
+    "id": 32,
+    "stance": "endorse",
+    "date": 1612224000000,
+    "stanceCounts": {
+      "endorse": 16,
+      "neutral": 7,
+      "oppose": 10
+    }
+  },
+  "33": {
+    "id": 33,
+    "stance": "endorse",
+    "date": 1612310400000,
+    "stanceCounts": {
+      "endorse": 17,
+      "neutral": 7,
+      "oppose": 10
+    }
+  },
+  "34": {
+    "id": 34,
+    "stance": "oppose",
+    "date": 1612396800000,
+    "stanceCounts": {
+      "endorse": 17,
+      "neutral": 7,
+      "oppose": 11
+    }
+  },
+  "35": {
+    "id": 35,
+    "stance": "neutral",
+    "date": 1612483200000,
+    "stanceCounts": {
+      "endorse": 17,
+      "neutral": 8,
+      "oppose": 11
+    }
+  },
+  "36": {
+    "id": 36,
+    "stance": "oppose",
+    "date": 1612569600000,
+    "stanceCounts": {
+      "endorse": 17,
+      "neutral": 8,
+      "oppose": 12
+    }
+  },
+  "37": {
+    "id": 37,
+    "stance": "oppose",
+    "date": 1612656000000,
+    "stanceCounts": {
+      "endorse": 17,
+      "neutral": 8,
+      "oppose": 13
+    }
+  },
+  "38": {
+    "id": 38,
+    "stance": "oppose",
+    "date": 1612742400000,
+    "stanceCounts": {
+      "endorse": 17,
+      "neutral": 8,
+      "oppose": 14
+    }
+  },
+  "39": {
+    "id": 39,
+    "stance": "oppose",
+    "date": 1612828800000,
+    "stanceCounts": {
+      "endorse": 17,
+      "neutral": 8,
+      "oppose": 15
+    }
+  },
+  "40": {
+    "id": 40,
+    "stance": "oppose",
+    "date": 1612915200000,
+    "stanceCounts": {
+      "endorse": 17,
+      "neutral": 8,
+      "oppose": 16
+    }
+  },
+  "41": {
+    "id": 41,
+    "stance": "endorse",
+    "date": 1613001600000,
+    "stanceCounts": {
+      "endorse": 18,
+      "neutral": 8,
+      "oppose": 16
+    }
+  },
+  "42": {
+    "id": 42,
+    "stance": "endorse",
+    "date": 1613088000000,
+    "stanceCounts": {
+      "endorse": 19,
+      "neutral": 8,
+      "oppose": 16
+    }
+  },
+  "43": {
+    "id": 43,
+    "stance": "neutral",
+    "date": 1613174400000,
+    "stanceCounts": {
+      "endorse": 19,
+      "neutral": 9,
+      "oppose": 16
+    }
+  },
+  "44": {
+    "id": 44,
+    "stance": "neutral",
+    "date": 1613260800000,
+    "stanceCounts": {
+      "endorse": 19,
+      "neutral": 10,
+      "oppose": 16
+    }
+  },
+  "45": {
+    "id": 45,
+    "stance": "neutral",
+    "date": 1613347200000,
+    "stanceCounts": {
+      "endorse": 19,
+      "neutral": 11,
+      "oppose": 16
+    }
+  },
+  "46": {
+    "id": 46,
+    "stance": "oppose",
+    "date": 1613433600000,
+    "stanceCounts": {
+      "endorse": 19,
+      "neutral": 11,
+      "oppose": 17
+    }
+  },
+  "47": {
+    "id": 47,
+    "stance": "endorse",
+    "date": 1613520000000,
+    "stanceCounts": {
+      "endorse": 20,
+      "neutral": 11,
+      "oppose": 17
+    }
+  },
+  "48": {
+    "id": 48,
+    "stance": "endorse",
+    "date": 1613606400000,
+    "stanceCounts": {
+      "endorse": 21,
+      "neutral": 11,
+      "oppose": 17
+    }
+  },
+  "49": {
+    "id": 49,
+    "stance": "endorse",
+    "date": 1613692800000,
+    "stanceCounts": {
+      "endorse": 22,
+      "neutral": 11,
+      "oppose": 17
+    }
+  },
+  "50": {
+    "id": 50,
+    "stance": "neutral",
+    "date": 1613779200000,
+    "stanceCounts": {
+      "endorse": 22,
+      "neutral": 12,
+      "oppose": 17
+    }
+  },
+  "51": {
+    "id": 51,
+    "stance": "neutral",
+    "date": 1613865600000,
+    "stanceCounts": {
+      "endorse": 22,
+      "neutral": 13,
+      "oppose": 17
+    }
+  },
+  "52": {
+    "id": 52,
+    "stance": "neutral",
+    "date": 1613952000000,
+    "stanceCounts": {
+      "endorse": 22,
+      "neutral": 14,
+      "oppose": 17
+    }
+  },
+  "53": {
+    "id": 53,
+    "stance": "neutral",
+    "date": 1614038400000,
+    "stanceCounts": {
+      "endorse": 22,
+      "neutral": 15,
+      "oppose": 17
+    }
+  },
+  "54": {
+    "id": 54,
+    "stance": "oppose",
+    "date": 1614124800000,
+    "stanceCounts": {
+      "endorse": 22,
+      "neutral": 15,
+      "oppose": 18
+    }
+  },
+  "55": {
+    "id": 55,
+    "stance": "neutral",
+    "date": 1614211200000,
+    "stanceCounts": {
+      "endorse": 22,
+      "neutral": 16,
+      "oppose": 18
+    }
+  },
+  "56": {
+    "id": 56,
+    "stance": "oppose",
+    "date": 1614297600000,
+    "stanceCounts": {
+      "endorse": 22,
+      "neutral": 16,
+      "oppose": 19
+    }
+  },
+  "57": {
+    "id": 57,
+    "stance": "endorse",
+    "date": 1614384000000,
+    "stanceCounts": {
+      "endorse": 23,
+      "neutral": 16,
+      "oppose": 19
+    }
+  },
+  "58": {
+    "id": 58,
+    "stance": "neutral",
+    "date": 1614470400000,
+    "stanceCounts": {
+      "endorse": 23,
+      "neutral": 17,
+      "oppose": 19
+    }
+  },
+  "59": {
+    "id": 59,
+    "stance": "neutral",
+    "date": 1614556800000,
+    "stanceCounts": {
+      "endorse": 23,
+      "neutral": 18,
+      "oppose": 19
+    }
+  },
+  "60": {
+    "id": 60,
+    "stance": "neutral",
+    "date": 1614643200000,
+    "stanceCounts": {
+      "endorse": 23,
+      "neutral": 19,
+      "oppose": 19
+    }
+  },
+  "61": {
+    "id": 61,
+    "stance": "neutral",
+    "date": 1614729600000,
+    "stanceCounts": {
+      "endorse": 23,
+      "neutral": 20,
+      "oppose": 19
+    }
+  },
+  "62": {
+    "id": 62,
+    "stance": "endorse",
+    "date": 1614816000000,
+    "stanceCounts": {
+      "endorse": 24,
+      "neutral": 20,
+      "oppose": 19
+    }
+  },
+  "63": {
+    "id": 63,
+    "stance": "neutral",
+    "date": 1614902400000,
+    "stanceCounts": {
+      "endorse": 24,
+      "neutral": 21,
+      "oppose": 19
+    }
+  },
+  "64": {
+    "id": 64,
+    "stance": "oppose",
+    "date": 1614988800000,
+    "stanceCounts": {
+      "endorse": 24,
+      "neutral": 21,
+      "oppose": 20
+    }
+  },
+  "65": {
+    "id": 65,
+    "stance": "endorse",
+    "date": 1615075200000,
+    "stanceCounts": {
+      "endorse": 25,
+      "neutral": 21,
+      "oppose": 20
+    }
+  },
+  "66": {
+    "id": 66,
+    "stance": "oppose",
+    "date": 1615161600000,
+    "stanceCounts": {
+      "endorse": 25,
+      "neutral": 21,
+      "oppose": 21
+    }
+  },
+  "67": {
+    "id": 67,
+    "stance": "oppose",
+    "date": 1615248000000,
+    "stanceCounts": {
+      "endorse": 25,
+      "neutral": 21,
+      "oppose": 22
+    }
+  },
+  "68": {
+    "id": 68,
+    "stance": "oppose",
+    "date": 1615334400000,
+    "stanceCounts": {
+      "endorse": 25,
+      "neutral": 21,
+      "oppose": 23
+    }
+  },
+  "69": {
+    "id": 69,
+    "stance": "oppose",
+    "date": 1615420800000,
+    "stanceCounts": {
+      "endorse": 25,
+      "neutral": 21,
+      "oppose": 24
+    }
+  },
+  "70": {
+    "id": 70,
+    "stance": "neutral",
+    "date": 1615507200000,
+    "stanceCounts": {
+      "endorse": 25,
+      "neutral": 22,
+      "oppose": 24
+    }
+  },
+  "71": {
+    "id": 71,
+    "stance": "endorse",
+    "date": 1615593600000,
+    "stanceCounts": {
+      "endorse": 26,
+      "neutral": 22,
+      "oppose": 24
+    }
+  },
+  "72": {
+    "id": 72,
+    "stance": "endorse",
+    "date": 1615680000000,
+    "stanceCounts": {
+      "endorse": 27,
+      "neutral": 22,
+      "oppose": 24
+    }
+  },
+  "73": {
+    "id": 73,
+    "stance": "neutral",
+    "date": 1615766400000,
+    "stanceCounts": {
+      "endorse": 27,
+      "neutral": 23,
+      "oppose": 24
+    }
+  },
+  "74": {
+    "id": 74,
+    "stance": "oppose",
+    "date": 1615852800000,
+    "stanceCounts": {
+      "endorse": 27,
+      "neutral": 23,
+      "oppose": 25
+    }
+  },
+  "75": {
+    "id": 75,
+    "stance": "endorse",
+    "date": 1615939200000,
+    "stanceCounts": {
+      "endorse": 28,
+      "neutral": 23,
+      "oppose": 25
+    }
+  },
+  "76": {
+    "id": 76,
+    "stance": "endorse",
+    "date": 1616025600000,
+    "stanceCounts": {
+      "endorse": 29,
+      "neutral": 23,
+      "oppose": 25
+    }
+  },
+  "77": {
+    "id": 77,
+    "stance": "endorse",
+    "date": 1616112000000,
+    "stanceCounts": {
+      "endorse": 30,
+      "neutral": 23,
+      "oppose": 25
+    }
+  },
+  "78": {
+    "id": 78,
+    "stance": "endorse",
+    "date": 1616198400000,
+    "stanceCounts": {
+      "endorse": 31,
+      "neutral": 23,
+      "oppose": 25
+    }
+  },
+  "79": {
+    "id": 79,
+    "stance": "neutral",
+    "date": 1616284800000,
+    "stanceCounts": {
+      "endorse": 31,
+      "neutral": 24,
+      "oppose": 25
+    }
+  },
+  "80": {
+    "id": 80,
+    "stance": "neutral",
+    "date": 1616371200000,
+    "stanceCounts": {
+      "endorse": 31,
+      "neutral": 25,
+      "oppose": 25
+    }
+  },
+  "81": {
+    "id": 81,
+    "stance": "neutral",
+    "date": 1616457600000,
+    "stanceCounts": {
+      "endorse": 31,
+      "neutral": 26,
+      "oppose": 25
+    }
+  },
+  "82": {
+    "id": 82,
+    "stance": "neutral",
+    "date": 1616544000000,
+    "stanceCounts": {
+      "endorse": 31,
+      "neutral": 27,
+      "oppose": 25
+    }
+  },
+  "83": {
+    "id": 83,
+    "stance": "endorse",
+    "date": 1616630400000,
+    "stanceCounts": {
+      "endorse": 32,
+      "neutral": 27,
+      "oppose": 25
+    }
+  },
+  "84": {
+    "id": 84,
+    "stance": "endorse",
+    "date": 1616716800000,
+    "stanceCounts": {
+      "endorse": 33,
+      "neutral": 27,
+      "oppose": 25
+    }
+  },
+  "85": {
+    "id": 85,
+    "stance": "neutral",
+    "date": 1616803200000,
+    "stanceCounts": {
+      "endorse": 33,
+      "neutral": 28,
+      "oppose": 25
+    }
+  },
+  "86": {
+    "id": 86,
+    "stance": "oppose",
+    "date": 1616889600000,
+    "stanceCounts": {
+      "endorse": 33,
+      "neutral": 28,
+      "oppose": 26
+    }
+  },
+  "87": {
+    "id": 87,
+    "stance": "oppose",
+    "date": 1616976000000,
+    "stanceCounts": {
+      "endorse": 33,
+      "neutral": 28,
+      "oppose": 27
+    }
+  },
+  "88": {
+    "id": 88,
+    "stance": "endorse",
+    "date": 1617062400000,
+    "stanceCounts": {
+      "endorse": 34,
+      "neutral": 28,
+      "oppose": 27
+    }
+  },
+  "89": {
+    "id": 89,
+    "stance": "endorse",
+    "date": 1617148800000,
+    "stanceCounts": {
+      "endorse": 35,
+      "neutral": 28,
+      "oppose": 27
+    }
+  },
+  "90": {
+    "id": 90,
+    "stance": "oppose",
+    "date": 1617235200000,
+    "stanceCounts": {
+      "endorse": 35,
+      "neutral": 28,
+      "oppose": 28
+    }
+  },
+  "91": {
+    "id": 91,
+    "stance": "neutral",
+    "date": 1617321600000,
+    "stanceCounts": {
+      "endorse": 35,
+      "neutral": 29,
+      "oppose": 28
+    }
+  },
+  "92": {
+    "id": 92,
+    "stance": "neutral",
+    "date": 1617408000000,
+    "stanceCounts": {
+      "endorse": 35,
+      "neutral": 30,
+      "oppose": 28
+    }
+  },
+  "93": {
+    "id": 93,
+    "stance": "oppose",
+    "date": 1617494400000,
+    "stanceCounts": {
+      "endorse": 35,
+      "neutral": 30,
+      "oppose": 29
+    }
+  },
+  "94": {
+    "id": 94,
+    "stance": "endorse",
+    "date": 1617580800000,
+    "stanceCounts": {
+      "endorse": 36,
+      "neutral": 30,
+      "oppose": 29
+    }
+  },
+  "95": {
+    "id": 95,
+    "stance": "neutral",
+    "date": 1617667200000,
+    "stanceCounts": {
+      "endorse": 36,
+      "neutral": 31,
+      "oppose": 29
+    }
+  },
+  "96": {
+    "id": 96,
+    "stance": "neutral",
+    "date": 1617753600000,
+    "stanceCounts": {
+      "endorse": 36,
+      "neutral": 32,
+      "oppose": 29
+    }
+  },
+  "97": {
+    "id": 97,
+    "stance": "oppose",
+    "date": 1617840000000,
+    "stanceCounts": {
+      "endorse": 36,
+      "neutral": 32,
+      "oppose": 30
+    }
+  },
+  "98": {
+    "id": 98,
+    "stance": "neutral",
+    "date": 1617926400000,
+    "stanceCounts": {
+      "endorse": 36,
+      "neutral": 33,
+      "oppose": 30
+    }
+  },
+  "99": {
+    "id": 99,
+    "stance": "neutral",
+    "date": 1618012800000,
+    "stanceCounts": {
+      "endorse": 36,
+      "neutral": 34,
+      "oppose": 30
+    }
+  },
+  "100": {
+    "id": 100,
+    "stance": "endorse",
+    "date": 1618099200000,
+    "stanceCounts": {
+      "endorse": 37,
+      "neutral": 34,
+      "oppose": 30
+    }
+  },
+  "101": {
+    "id": 101,
+    "stance": "neutral",
+    "date": 1618185600000,
+    "stanceCounts": {
+      "endorse": 37,
+      "neutral": 35,
+      "oppose": 30
+    }
+  },
+  "102": {
+    "id": 102,
+    "stance": "neutral",
+    "date": 1618272000000,
+    "stanceCounts": {
+      "endorse": 37,
+      "neutral": 36,
+      "oppose": 30
+    }
+  },
+  "103": {
+    "id": 103,
+    "stance": "endorse",
+    "date": 1618358400000,
+    "stanceCounts": {
+      "endorse": 38,
+      "neutral": 36,
+      "oppose": 30
+    }
+  },
+  "104": {
+    "id": 104,
+    "stance": "neutral",
+    "date": 1618444800000,
+    "stanceCounts": {
+      "endorse": 38,
+      "neutral": 37,
+      "oppose": 30
+    }
+  },
+  "105": {
+    "id": 105,
+    "stance": "endorse",
+    "date": 1618531200000,
+    "stanceCounts": {
+      "endorse": 39,
+      "neutral": 37,
+      "oppose": 30
+    }
+  },
+  "106": {
+    "id": 106,
+    "stance": "endorse",
+    "date": 1618617600000,
+    "stanceCounts": {
+      "endorse": 40,
+      "neutral": 37,
+      "oppose": 30
+    }
+  },
+  "107": {
+    "id": 107,
+    "stance": "neutral",
+    "date": 1618704000000,
+    "stanceCounts": {
+      "endorse": 40,
+      "neutral": 38,
+      "oppose": 30
+    }
+  },
+  "108": {
+    "id": 108,
+    "stance": "oppose",
+    "date": 1618790400000,
+    "stanceCounts": {
+      "endorse": 40,
+      "neutral": 38,
+      "oppose": 31
+    }
+  },
+  "109": {
+    "id": 109,
+    "stance": "neutral",
+    "date": 1618876800000,
+    "stanceCounts": {
+      "endorse": 40,
+      "neutral": 39,
+      "oppose": 31
+    }
+  },
+  "110": {
+    "id": 110,
+    "stance": "neutral",
+    "date": 1618963200000,
+    "stanceCounts": {
+      "endorse": 40,
+      "neutral": 40,
+      "oppose": 31
+    }
+  },
+  "111": {
+    "id": 111,
+    "stance": "oppose",
+    "date": 1619049600000,
+    "stanceCounts": {
+      "endorse": 40,
+      "neutral": 40,
+      "oppose": 32
+    }
+  },
+  "112": {
+    "id": 112,
+    "stance": "neutral",
+    "date": 1619136000000,
+    "stanceCounts": {
+      "endorse": 40,
+      "neutral": 41,
+      "oppose": 32
+    }
+  },
+  "113": {
+    "id": 113,
+    "stance": "endorse",
+    "date": 1619222400000,
+    "stanceCounts": {
+      "endorse": 41,
+      "neutral": 41,
+      "oppose": 32
+    }
+  },
+  "114": {
+    "id": 114,
+    "stance": "endorse",
+    "date": 1619308800000,
+    "stanceCounts": {
+      "endorse": 42,
+      "neutral": 41,
+      "oppose": 32
+    }
+  },
+  "115": {
+    "id": 115,
+    "stance": "neutral",
+    "date": 1619395200000,
+    "stanceCounts": {
+      "endorse": 42,
+      "neutral": 42,
+      "oppose": 32
+    }
+  },
+  "116": {
+    "id": 116,
+    "stance": "neutral",
+    "date": 1619481600000,
+    "stanceCounts": {
+      "endorse": 42,
+      "neutral": 43,
+      "oppose": 32
+    }
+  },
+  "117": {
+    "id": 117,
+    "stance": "oppose",
+    "date": 1619568000000,
+    "stanceCounts": {
+      "endorse": 42,
+      "neutral": 43,
+      "oppose": 33
+    }
+  },
+  "118": {
+    "id": 118,
+    "stance": "neutral",
+    "date": 1619654400000,
+    "stanceCounts": {
+      "endorse": 42,
+      "neutral": 44,
+      "oppose": 33
+    }
+  },
+  "119": {
+    "id": 119,
+    "stance": "endorse",
+    "date": 1619740800000,
+    "stanceCounts": {
+      "endorse": 43,
+      "neutral": 44,
+      "oppose": 33
+    }
+  },
+  "120": {
+    "id": 120,
+    "stance": "endorse",
+    "date": 1619827200000,
+    "stanceCounts": {
+      "endorse": 44,
+      "neutral": 44,
+      "oppose": 33
+    }
+  },
+  "121": {
+    "id": 121,
+    "stance": "oppose",
+    "date": 1619913600000,
+    "stanceCounts": {
+      "endorse": 44,
+      "neutral": 44,
+      "oppose": 34
+    }
+  },
+  "122": {
+    "id": 122,
+    "stance": "endorse",
+    "date": 1620000000000,
+    "stanceCounts": {
+      "endorse": 45,
+      "neutral": 44,
+      "oppose": 34
+    }
+  },
+  "123": {
+    "id": 123,
+    "stance": "oppose",
+    "date": 1620086400000,
+    "stanceCounts": {
+      "endorse": 45,
+      "neutral": 44,
+      "oppose": 35
+    }
+  },
+  "124": {
+    "id": 124,
+    "stance": "endorse",
+    "date": 1620172800000,
+    "stanceCounts": {
+      "endorse": 46,
+      "neutral": 44,
+      "oppose": 35
+    }
+  },
+  "125": {
+    "id": 125,
+    "stance": "oppose",
+    "date": 1620259200000,
+    "stanceCounts": {
+      "endorse": 46,
+      "neutral": 44,
+      "oppose": 36
+    }
+  },
+  "126": {
+    "id": 126,
+    "stance": "oppose",
+    "date": 1620345600000,
+    "stanceCounts": {
+      "endorse": 46,
+      "neutral": 44,
+      "oppose": 37
+    }
+  },
+  "127": {
+    "id": 127,
+    "stance": "endorse",
+    "date": 1620432000000,
+    "stanceCounts": {
+      "endorse": 47,
+      "neutral": 44,
+      "oppose": 37
+    }
+  },
+  "128": {
+    "id": 128,
+    "stance": "endorse",
+    "date": 1620518400000,
+    "stanceCounts": {
+      "endorse": 48,
+      "neutral": 44,
+      "oppose": 37
+    }
+  },
+  "129": {
+    "id": 129,
+    "stance": "oppose",
+    "date": 1620604800000,
+    "stanceCounts": {
+      "endorse": 48,
+      "neutral": 44,
+      "oppose": 38
+    }
+  },
+  "130": {
+    "id": 130,
+    "stance": "neutral",
+    "date": 1620691200000,
+    "stanceCounts": {
+      "endorse": 48,
+      "neutral": 45,
+      "oppose": 38
+    }
+  },
+  "131": {
+    "id": 131,
+    "stance": "endorse",
+    "date": 1620777600000,
+    "stanceCounts": {
+      "endorse": 49,
+      "neutral": 45,
+      "oppose": 38
+    }
+  },
+  "132": {
+    "id": 132,
+    "stance": "neutral",
+    "date": 1620864000000,
+    "stanceCounts": {
+      "endorse": 49,
+      "neutral": 46,
+      "oppose": 38
+    }
+  },
+  "133": {
+    "id": 133,
+    "stance": "neutral",
+    "date": 1620950400000,
+    "stanceCounts": {
+      "endorse": 49,
+      "neutral": 47,
+      "oppose": 38
+    }
+  },
+  "134": {
+    "id": 134,
+    "stance": "endorse",
+    "date": 1621036800000,
+    "stanceCounts": {
+      "endorse": 50,
+      "neutral": 47,
+      "oppose": 38
+    }
+  },
+  "135": {
+    "id": 135,
+    "stance": "oppose",
+    "date": 1621123200000,
+    "stanceCounts": {
+      "endorse": 50,
+      "neutral": 47,
+      "oppose": 39
+    }
+  },
+  "136": {
+    "id": 136,
+    "stance": "neutral",
+    "date": 1621209600000,
+    "stanceCounts": {
+      "endorse": 50,
+      "neutral": 48,
+      "oppose": 39
+    }
+  },
+  "137": {
+    "id": 137,
+    "stance": "endorse",
+    "date": 1621296000000,
+    "stanceCounts": {
+      "endorse": 51,
+      "neutral": 48,
+      "oppose": 39
+    }
+  },
+  "138": {
+    "id": 138,
+    "stance": "oppose",
+    "date": 1621382400000,
+    "stanceCounts": {
+      "endorse": 51,
+      "neutral": 48,
+      "oppose": 40
+    }
+  },
+  "139": {
+    "id": 139,
+    "stance": "endorse",
+    "date": 1621468800000,
+    "stanceCounts": {
+      "endorse": 52,
+      "neutral": 48,
+      "oppose": 40
+    }
+  },
+  "140": {
+    "id": 140,
+    "stance": "endorse",
+    "date": 1621555200000,
+    "stanceCounts": {
+      "endorse": 53,
+      "neutral": 48,
+      "oppose": 40
+    }
+  },
+  "141": {
+    "id": 141,
+    "stance": "oppose",
+    "date": 1621641600000,
+    "stanceCounts": {
+      "endorse": 53,
+      "neutral": 48,
+      "oppose": 41
+    }
+  },
+  "142": {
+    "id": 142,
+    "stance": "neutral",
+    "date": 1621728000000,
+    "stanceCounts": {
+      "endorse": 53,
+      "neutral": 49,
+      "oppose": 41
+    }
+  },
+  "143": {
+    "id": 143,
+    "stance": "oppose",
+    "date": 1621814400000,
+    "stanceCounts": {
+      "endorse": 53,
+      "neutral": 49,
+      "oppose": 42
+    }
+  },
+  "144": {
+    "id": 144,
+    "stance": "endorse",
+    "date": 1621900800000,
+    "stanceCounts": {
+      "endorse": 54,
+      "neutral": 49,
+      "oppose": 42
+    }
+  },
+  "145": {
+    "id": 145,
+    "stance": "oppose",
+    "date": 1621987200000,
+    "stanceCounts": {
+      "endorse": 54,
+      "neutral": 49,
+      "oppose": 43
+    }
+  },
+  "146": {
+    "id": 146,
+    "stance": "neutral",
+    "date": 1622073600000,
+    "stanceCounts": {
+      "endorse": 54,
+      "neutral": 50,
+      "oppose": 43
+    }
+  },
+  "147": {
+    "id": 147,
+    "stance": "neutral",
+    "date": 1622160000000,
+    "stanceCounts": {
+      "endorse": 54,
+      "neutral": 51,
+      "oppose": 43
+    }
+  },
+  "148": {
+    "id": 148,
+    "stance": "oppose",
+    "date": 1622246400000,
+    "stanceCounts": {
+      "endorse": 54,
+      "neutral": 51,
+      "oppose": 44
+    }
+  },
+  "149": {
+    "id": 149,
+    "stance": "endorse",
+    "date": 1622332800000,
+    "stanceCounts": {
+      "endorse": 55,
+      "neutral": 51,
+      "oppose": 44
+    }
+  },
+  "150": {
+    "id": 150,
+    "stance": "endorse",
+    "date": 1622419200000,
+    "stanceCounts": {
+      "endorse": 56,
+      "neutral": 51,
+      "oppose": 44
+    }
+  },
+  "151": {
+    "id": 151,
+    "stance": "oppose",
+    "date": 1622505600000,
+    "stanceCounts": {
+      "endorse": 56,
+      "neutral": 51,
+      "oppose": 45
+    }
+  },
+  "152": {
+    "id": 152,
+    "stance": "neutral",
+    "date": 1622592000000,
+    "stanceCounts": {
+      "endorse": 56,
+      "neutral": 52,
+      "oppose": 45
+    }
+  },
+  "153": {
+    "id": 153,
+    "stance": "endorse",
+    "date": 1622678400000,
+    "stanceCounts": {
+      "endorse": 57,
+      "neutral": 52,
+      "oppose": 45
+    }
+  },
+  "154": {
+    "id": 154,
+    "stance": "oppose",
+    "date": 1622764800000,
+    "stanceCounts": {
+      "endorse": 57,
+      "neutral": 52,
+      "oppose": 46
+    }
+  },
+  "155": {
+    "id": 155,
+    "stance": "endorse",
+    "date": 1622851200000,
+    "stanceCounts": {
+      "endorse": 58,
+      "neutral": 52,
+      "oppose": 46
+    }
+  },
+  "156": {
+    "id": 156,
+    "stance": "endorse",
+    "date": 1622937600000,
+    "stanceCounts": {
+      "endorse": 59,
+      "neutral": 52,
+      "oppose": 46
+    }
+  }
+}
