@@ -12,6 +12,7 @@ export type AppPropsWithLayout = AppProps & {
 }
 
 export function applyLayout({ Component, pageProps }: AppPropsWithLayout) {
+  console.log('asdf', Component)
   const page = <Component {...pageProps} />
   return <Layout title={Component.title}>{page}</Layout>
 }

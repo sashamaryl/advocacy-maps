@@ -5,7 +5,7 @@ import { useAsync } from "react-async-hook"
 import { Frequency, useAuth } from "../../auth"
 import { firestore, storage } from "../../firebase"
 import { useProfileState } from "./redux"
-import { Profile, ProfileMember, SocialLinks } from "./types"
+import { Profile, ProfileMember, requestUpgrade, SocialLinks } from "./types"
 
 export type ProfileHook = ReturnType<typeof useProfile>
 
@@ -262,7 +262,13 @@ export async function updateProfileImage(uid: string, image: File) {
   })
 }
 
+const getUpgrade = async (id: string) => {
+  const result = await requestUpgrade({ id: id })
+  console.log(result)
+}
+
 export function usePublicProfile(uid?: string) {
+  uid && getUpgrade(uid).then(console.log)
   return useAsync(
     () => (uid ? getProfile(uid) : Promise.resolve(undefined)),
     [uid]

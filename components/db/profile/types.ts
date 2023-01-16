@@ -1,3 +1,5 @@
+import { functions } from "../../firebase"
+import { httpsCallable } from "firebase/functions"
 import { Frequency, Role } from "../../auth"
 
 export type ProfileMember = {
@@ -26,3 +28,8 @@ export type Profile = {
   profileImage?: string
   billsFollowing?: string[]
 }
+
+export const requestUpgrade = httpsCallable<
+  { id: string },
+  { requestId: string }
+>(functions, "requestUpgrade")
