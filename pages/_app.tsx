@@ -25,7 +25,7 @@ import { Providers } from "../components/providers"
  * See https://nextjs.org/docs/basic-features/layouts for the pattern.
  */
 function App(props: AppPropsWithLayout) {
-  return <Providers>{applyLayout(props)}</Providers>
+  return props.router.pathname === '/admin' ? <props.Component /> : <Providers>{applyLayout(props)}</Providers>
 }
 
 export default App

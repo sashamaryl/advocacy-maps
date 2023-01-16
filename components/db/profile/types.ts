@@ -1,3 +1,5 @@
+import { functions } from "../../firebase"
+import { httpsCallable } from "firebase/functions"
 import { Role } from "../../auth"
 
 export type ProfileMember = {
@@ -24,3 +26,8 @@ export type Profile = {
   organization?: boolean
   profileImage?: string
 }
+
+export const requestUpgrade = httpsCallable<
+  { id: string },
+  { requestId: string }
+>(functions, "requestUpgrade")
