@@ -1,8 +1,8 @@
 rules_version = '2';
 service cloud.firestore {
   function validUser() {
-      return request.auth.uid == uid
-    }
+    return request.auth.uid == uid
+  }
 
   function userRole() {
     return request.auth.token.get("role", "user")
@@ -14,7 +14,7 @@ service cloud.firestore {
 
   function validPublicChange() {
     return !request.resource.data.diff(resource.data).affectedKeys().hasAny(['public'])
-        || userRole() == "user"
+      || userRole() == "user"
   }
 
   match /databases/{database}/documents {
@@ -29,7 +29,7 @@ service cloud.firestore {
       allow write: if false;
     }
     match /profiles/{uid} {
-     
+
       // Always visible to the user and public if `public` is true.
       // Only writable by the user.
       // Do not allow users to delete their profile, set the role field.
@@ -61,7 +61,7 @@ service cloud.firestore {
     }
     match /profileUpgradeRequests/{id} {
       // allow write if user is admin
-      allow read, write: userRole() == "admin"   
+      allow read, write: if userRole() == "admin"   
       // user can read their own requests 
       allow read: if userRole() == "user" && request.resource.data.requester == request.auth.uid
     }
