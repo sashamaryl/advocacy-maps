@@ -1,4 +1,6 @@
+import { requestUpgrade } from "components/db"
 import { app } from "components/firebase"
+import editprofile from "pages/editprofile"
 import { FC } from "react"
 import {
   Admin,
@@ -10,56 +12,72 @@ import {
   Edit,
   Form,
   TextInput,
-  Create
+  Create,
+  BooleanField
 } from "react-admin"
 import { FirebaseDataProvider } from "react-admin-firebase"
+import Card from "react-bootstrap/esm/Card"
 
 export default function App() {
-  console.log(app.options)
   const dataProvider = FirebaseDataProvider(app.options, {})
+  const committees = "generalCourts/192/committees"
+  const profiles = "profiles"
+
+  const endpoint = profiles
 
   return (
     <Admin dataProvider={dataProvider}>
       <Resource
-        name="generalCourts/192/committees"
-        list={ListCommittees}
-        edit={EditCommittees}
-        create={CreateCommittees}
+        name={endpoint}
+        list={ListProfiles}
+        edit={EditProfile}
+        create={CreateProfile}
       />
-      <Resource name="profiles" list={ListGuesser} />
-      {/* edit={EditProfile}/> */}
-      {/* Create={CreateProfile}/> */}
+      <Resource
+        name={endpoint}
+        list={ListProfiles}
+        edit={EditProfile}
+        create={CreateProfile}
+      />
     </Admin>
   )
 }
 
-const ListProfile = () => {
-  ;<List>
-    <Datagrid rowClick="edit"></Datagrid>
-  </List>
-}
+const ListProfiles = () => {
+  const textFields = ["id", "about", "displayName", "organization", "public"]
+  const complexFields = ["representative", "senator", "social"]
 
-const ListCommittees = () => {
   return (
     <List>
-      <Datagrid rowClick="edit">
-        <TextField source={"id"} />
-      </Datagrid>
+      <Card>
+        <Card.Header>Profiles</Card.Header>
+        <Datagrid rowClick="edit">
+          {textFields.map(t => (
+            <TextField key="t" source={t} />
+          ))}
+        </Datagrid>
+      </Card>
     </List>
   )
 }
 
-const EditCommittees = () => {
+const EditProfile = () => {
+  const textFields = ["id", "about", "displayName", "organization", "public"]
+  const complexFields = ["representative", "senator", "social"]
+
   return (
     <Edit>
       <Form>
-        <TextInput source="id" />
+        {textFields.map(t => (
+          <TextInput key={t} source={t} />
+        ))}
+        <Resource name="representative" list={ListGuesser} />
       </Form>
     </Edit>
   )
 }
 
-const CreateCommittees = () => {
+const CreateProfile = () => {
   return (
     <Create>
       <Form>

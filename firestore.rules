@@ -14,7 +14,7 @@ service cloud.firestore {
 
   function validPublicChange() {
     return !request.resource.data.diff(resource.data).affectedKeys().hasAny(['public'])
-      || userRole() == "user"
+      || userRole() == "user" 
   }
 
   match /databases/{database}/documents {
@@ -35,9 +35,20 @@ service cloud.firestore {
       // Do not allow users to delete their profile, set the role field.
       // Only normal "user" roles can toggle visibility.
       allow read: if resource.data.public || request.auth.uid == uid
+      // or if the profile is an organization.
+      // allow read: if resource.data.public || request.auth.uid == uid || userRole() == "admin"   
+      allow read, write: if true || userRole() == "admin"   
       allow create: if validUser() && request.resource.data.role == 'user' && request.resource.data.public == false
       allow update: if validUser() && validRoleChange() && validPublicChange()
+      match /representative {
+        allow: 
+      }
+
+
+      match /senator {}
     }
+
+
     // Allow querying publications individually or with a collection group.
     match /{path=**}/publishedTestimony/{id} {
       // public, read-only
