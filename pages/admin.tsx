@@ -1,24 +1,25 @@
+import { dbService } from "components/db/api"
 import { createPage } from "components/page"
 import type { NextPage } from "next"
 import dynamic from "next/dynamic"
-// import App from '../components/admin/admin'
+import Router from "next/router"
+import { useEffect } from "react"
+import { wrapper } from "components/store"
+import { z } from "zod"
 
 const App = dynamic(() => import("../components/admin/admin"), { ssr: false })
 
-// const Admin: NextPage = () => {
-// return <App />
-// }
-
-const Administration: NextPage = () => {
-  return (
-      <App />
-  )
+const Admin: NextPage = () => {
+return <App />
 }
 
 // export default createPage({
 //   title: "Admin",
-//   Page:
+//   Page: () => {
+//     return <App />
 //   }
 // })
 
-export default Administration
+
+
+export default Admin
