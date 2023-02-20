@@ -1,74 +1,83 @@
 rules_version = '2';
 service cloud.firestore {
-  function validUser() {
-    return request.auth.uid == uid
-  }
+  // function validUser() {
+  //   return request.auth.uid == uid
+  // }
 
-  function userRole() {
-    return request.auth.token.get("role", "user")
-  }
+  // function userRole() {
+  //   return request.auth.token.get("role", "user")
+  // }
 
-  function validRoleChange() {
-    return !request.resource.data.diff(resource.data).affectedKeys().hasAny(['role'])
-  }
+  // function validRoleChange() {
+  //   return !request.resource.data.diff(resource.data).affectedKeys().hasAny(['role'])
+  // }
 
-  function validPublicChange() {
-    return !request.resource.data.diff(resource.data).affectedKeys().hasAny(['public'])
-      || userRole() == "user" 
-  }
+  // function validPublicChange() {
+  //   return !request.resource.data.diff(resource.data).affectedKeys().hasAny(['public'])
+  //     || userRole() == "user" 
+  // }
 
   match /databases/{database}/documents {
-    match /events/{id} {
-      // public, read-only 
-      allow read: if true;
-      allow write: if false;
-    }
-    match /generalCourts/{document=**} {
-      // public, read-only 
-      allow read: if true;
-      allow write: if false;
-    }
-    match /profiles/{uid} {
-
-      // Always visible to the user and public if `public` is true.
-      // Only writable by the user.
-      // Do not allow users to delete their profile, set the role field.
-      // Only normal "user" roles can toggle visibility.
-      allow read: if resource.data.public || request.auth.uid == uid
-      // or if the profile is an organization.
-      // allow read: if resource.data.public || request.auth.uid == uid || userRole() == "admin"   
-      allow read, write: if true || userRole() == "admin"   
-      allow create: if validUser() && request.resource.data.role == 'user' && request.resource.data.public == false
-      allow update: if validUser() && validRoleChange() && validPublicChange()
-    }
-
-
-    // Allow querying publications individually or with a collection group.
-    match /{path=**}/publishedTestimony/{id} {
-      // public, read-only
-      allow read: if true
-      allow write: if false
-    }
-    match /users/{uid} {
-      match /draftTestimony/{id} {
-        // private, only accessible by the user
-        allow read, write: if request.auth.uid == uid
-      }
-      match /activeTopicSubcriptions/{topicName} {
-        // private, only accessible by the user
-        allow read, write: if request.auth.uid == uid
-      }
-      match /archivedTestimony/{id} {
-        // Publicly readable, for posterity.
-        allow read: if true 
-        allow write: if false
-      }
-    }
-    match /profileUpgradeRequests/{id} {
-      // allow write if user is admin
-      allow read, write: if userRole() == "admin"   
-      // user can read their own requests 
-      allow read: if userRole() == "user" && request.resource.data.requester == request.auth.uid
+    match /{document=**} {
+      allow read,write: if true;
     }
   }
 }
+
+  // match /databases/{database}/documents {
+  //   match /events/{id} {
+  //     // public, read-only 
+  //     allow read: if true;
+  //     allow write: if false;
+  //   }
+  //   match /generalCourts/{document=**} {
+  //     // public, read-only 
+  //     allow read: if true;
+  //     allow write: if false;
+  //   }
+  //   match /profiles/{uid} {
+
+  //     // Always visible to the user and public if `public` is true.
+  //     // Only writable by the user.
+  //     // Do not allow users to delete their profile, set the role field.
+  //     // Only normal "user" roles can toggle visibility.
+  //     // commented below for set up 
+  //     // allow read: if resource.data.public || request.auth.uid == uid
+  //     // or if the profile is an organization.
+  //     // allow read: if resource.data.public || request.auth.uid == uid || userRole() == "admin"   
+  //     allow read, write: if userRole() == "admin"   
+  //     // commented 2 below for set up 
+  //     // allow create: if validUser() && request.resource.data.role == 'user' && request.resource.data.public == false
+  //     // allow update: if validUser() && validRoleChange() && validPublicChange()
+  //   }
+
+
+  //   // Allow querying publications individually or with a collection group.
+  //   match /{path=**}/publishedTestimony/{id} {
+  //     // public, read-only
+  //     allow read: if true
+  //     allow write: if false
+  //   }
+  //   match /users/{uid} {
+  //     match /draftTestimony/{id} {
+  //       // private, only accessible by the user
+  //       allow read, write: if request.auth.uid == uid
+  //     }
+  //     match /activeTopicSubcriptions/{topicName} {
+  //       // private, only accessible by the user
+  //       allow read, write: if request.auth.uid == uid
+  //     }
+  //     match /archivedTestimony/{id} {
+  //       // Publicly readable, for posterity.
+  //       allow read: if true 
+  //       allow write: if false
+  //     }
+  //   }
+  //   match /profileUpgradeRequests/{id} {
+  //     // allow write if user is admin
+  //     allow read, write: if userRole() == "admin"   
+  //     // user can read their own requests 
+  //     allow read: if userRole() == "user" && request.resource.data.requester == request.auth.uid
+  //   }
+  // }
+// }

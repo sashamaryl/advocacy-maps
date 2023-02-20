@@ -1,26 +1,9 @@
-/**
- * view flagged testimony list
- * view flagged testimony content
- * select for viewing
- * select for deletion
- * perform delete
- * record userid, pubid, moderator id, and time of deletion
- */
-/**
- * collection with form response author id, pub id, who flagged it, reason, review status
- * display list, filter by review status, for-review are new ones
- *
- * when you want to sumbit review or make a decision we need to update the user
- *
- */
-
 import { Box } from "@material-ui/core"
 import { Card } from "components/bootstrap"
 import { app } from "components/firebase"
 import {
   Admin,
-  BooleanField,
-  Datagrid,
+  BooleanField, Datagrid,
   DateField,
   Edit,
   Form,
@@ -31,8 +14,8 @@ import {
   useRecordContext
 } from "react-admin"
 import { FirebaseDataProvider } from "react-admin-firebase"
-import type { Flag } from "./types"
-import { loadFlags } from "./flags_dummy_data"
+import type { Flag } from "../components/moderation"
+import { loadFlags } from "../components/moderation"
 
 /*
 form where they can approve a thing
@@ -124,7 +107,7 @@ const ShowModeration = () => {
       </Card.Body>
       <Card.Body>
         <Labeled label="Resolved?">
-          <BooleanField looseValue={false} source={"resolved"} />
+          <BooleanField  looseValue={false} source={"resolved"}/>
         </Labeled>
       </Card.Body>
     </Card>
@@ -165,5 +148,6 @@ const App = () => {
     </Admin>
   )
 }
+
 
 export default App
