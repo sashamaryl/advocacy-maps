@@ -1,5 +1,8 @@
 import { firestore } from "components/firebase"
-import { doc, setDoc } from "firebase/firestore"
+import { doc, getDoc, setDoc } from "firebase/firestore"
+import { loremIpsum, LoremIpsum } from "lorem-ipsum"
+import { DateTime } from "luxon"
+import type { Flag, FlagMessage } from "./types"
 
 export const gptFlags = [
   {
@@ -364,12 +367,80 @@ export const gptFlags2 = [
   }
 ]
 
-export const loadFlags = () => {
-  console.log("loading flags")
-  gptFlags2.forEach(async flag => {
-    const ref = doc(firestore, "flags", flag.id)
+const lI = new LoremIpsum()
+const idNum = () => Math.round(Math.random() * 999)
 
-    const res = await setDoc(ref, flag)
-    console.log("flags loaded", res)
-  })
+class FlagItem {
+  static counter: number = 1
+  messageIdCounter: number = 1
+  userId: string = lI.generateWords(1) + idNum()
+  moderatorId: string = ""
+  messagesRequested: number = 2
+
+  constructor(moderatorId: string) {
+    this.moderatorId = moderatorId
+  }
+
+  updateCounter = () => {
+    return FlagItem.counter + 1
+  }
+
+  updateMessageCounter = () => {
+    return this.messageIdCounter + 1
+  }
+
+  generateLoremIpsemMessages(num?: number): FlagMessage[] {
+    const messages: FlagMessage[] = []
+    if (num) {
+      if (num === 0) return messages
+      this.messagesRequested = num
+    }
+
+    while (this.messagesRequested > this.messageIdCounter) {
+      this.messageIdCounter = this.updateMessageCounter()
+      messages.push({
+        messageId: this.messageIdCounter.toString(),
+        flagId: FlagItem.counter.toString(),
+        authorId: this.userId,
+        recipient: this.moderatorId,
+        messageDate: DateTime.local().toString(),
+        messageText: lI.generateWords(9)
+      })
+    }
+
+    return messages
+  }
+
+  createLoremIpsemFlag(): Flag {
+    FlagItem.counter = this.updateCounter()
+    const aFlag: Flag = {
+      id: FlagItem.counter.toString(),
+      flagTime: DateTime.local().toJSDate().toTimeString(),
+      testimonyId: "1234",
+      testimonyText: lI.generateWords(50),
+      userId: this.userId,
+      userReason: lI.generateWords(9),
+      moderatorId: this.moderatorId,
+      status: "unread",
+      moderatorComment: lI.generateWords(12),
+      moderationDate: DateTime.local().toJSDate().toTimeString(),
+      removed: false,
+      removedDate: DateTime.local().toJSDate().toTimeString(),
+      resolved: false,
+      resolvedDate: DateTime.local().toJSDate().toTimeString(),
+      messages: this.generateLoremIpsemMessages()
+    }
+
+    return aFlag
+  }
+}
+
+export const loadFlags = async () => {
+  const FF = new FlagItem("firstMod")
+  const lIFlag = FF.createLoremIpsemFlag()
+  console.log("testing lIFlag", lIFlag.userId, lIFlag.id)
+
+  const ref = doc(firestore, "flags", lIFlag.id)
+
+  await setDoc(ref, lIFlag)
 }

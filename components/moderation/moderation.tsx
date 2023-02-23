@@ -14,7 +14,7 @@
  *
  */
 
-import { Box } from "@material-ui/core"
+import { Box } from "@mui/material"
 import { Card } from "components/bootstrap"
 import { app } from "components/firebase"
 import {
@@ -25,14 +25,13 @@ import {
   Edit,
   Form,
   Labeled,
-  List,
-  Resource,
+  List, Resource,
   TextField,
   useRecordContext
 } from "react-admin"
 import { FirebaseDataProvider } from "react-admin-firebase"
+import Dashboard from "./dashboard"
 import type { Flag } from "./types"
-import { loadFlags } from "./flags_dummy_data"
 
 /*
 form where they can approve a thing
@@ -50,16 +49,12 @@ const ListFlags = () => {
         <TextField source="moderatorId" />
         <TextField source="testimonyText" />
       </Datagrid>
-      <div>
-        <button onClick={loadFlags}>load flags</button>
-      </div>
     </List>
   )
 }
 
 const ShowTestimonyText = () => {
   const record: Flag = useRecordContext()
-  console.log("showtext", record.testimonyText)
   return (
     <Card style={{ flex: 5 }}>
       <Card.Header>Reported Testimony</Card.Header>
@@ -145,10 +140,20 @@ const EditFlags = () => {
   )
 }
 
+const PubTest = () => {
+  return (
+    <List>
+      <Datagrid>
+        <TextField source="billId" />
+      </Datagrid>
+    </List>
+  )
+}
+
 const App = () => {
   const dataProvider = FirebaseDataProvider({}, { app })
   return (
-    <Admin dataProvider={dataProvider}>
+    <Admin dataProvider={dataProvider} dashboard={Dashboard}>
       <Resource
         name={`flags`}
         list={ListFlags}
@@ -160,8 +165,7 @@ const App = () => {
           )
         }}
       />
-      {/* if you are using emulators, you can use this to load the dummy data */}
-      {/* <Resource name="events" list={ListFlags}/> */}
+      <Resource name={"publishedTestimony"} list={PubTest} />
     </Admin>
   )
 }

@@ -24,4 +24,5 @@ export type FlagMessage = {
   authorId: string
   recipient?: string
   messageDate: string | Timestamp
+  messageText: string
 }
