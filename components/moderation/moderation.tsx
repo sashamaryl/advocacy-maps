@@ -23,9 +23,10 @@ import {
   Datagrid,
   DateField,
   Edit,
+  EditGuesser,
   Form,
   Labeled,
-  List, Resource,
+  List, ListGuesser, Resource,
   TextField,
   useRecordContext
 } from "react-admin"
@@ -165,7 +166,8 @@ const App = () => {
           )
         }}
       />
-      <Resource name={"publishedTestimony"} list={PubTest} />
+      <Resource name={"profiles"} list={ListGuesser} edit={EditGuesser} />
+      <Resource name={"publishedTestimony"} list={ListGuesser} />
     </Admin>
   )
 }
