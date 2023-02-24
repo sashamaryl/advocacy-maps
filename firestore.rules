@@ -21,6 +21,12 @@ service cloud.firestore {
     match /{document=**} {
       allow read,write: if true;
     }
+    match /profileUpgradeRequests/{id} {
+      // allow write if user is admin
+      allow read, write: userRole() == "admin"   
+      // user can read their own requests 
+      allow read: if userRole() == "user" && request.resource.data.requester == request.auth.uid
+    }
   }
 }
 
