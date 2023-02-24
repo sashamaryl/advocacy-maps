@@ -15,42 +15,22 @@ import { loadFlags } from "./flags_dummy_data"
 import { Flag } from "./types"
 
 const Dashboard = () => {
-  queryCollectionSingle("publishedTestimony")
-  queryCollectionGroup("publishedTestimony")
+  const mySingleCollection = queryCollectionSingle("users")
+  const myGroupCollection = queryCollectionGroup("profile")
 
   return (
-    <div className="h-75">
+    <div className="d-flex flex-row h-75">
+      <Button onClick={loadFlags}>
+        <>load flags</>
+      </Button>
       <DisplayOtherList mylist="publishedTestimony" />
     </div>
   )
 }
 
-import {
-  collectionGroup,
-  query,
-  where,
-  getDocs,
-  collection,
-  QuerySnapshot,
-  DocumentData
-} from "firebase/firestore"
-import { firestore } from "components/firebase"
-import { Testimony } from "components/db"
-import { Committee } from "functions/src/committees/types"
-import { SetStateAction, useEffect, useState } from "react"
-
-async function queryCollectionGroup(test: string) {
-  const myquery = query(collectionGroup(firestore, test))
-  const querySnapshot = await getDocs(myquery)
-  console.log("collectionGroupQuery", querySnapshot.size)
-  return querySnapshot
-}
-
-async function queryCollectionSingle(test: string) {
-  const testCollection = collection(firestore, test)
-  const snap = await getDocs(testCollection)
-  console.log("collectionSingle", snap.size)
-}
+import { useEffect, useState } from "react"
+import { RecordType } from "zod"
+import { queryCollectionSingle, queryCollectionGroup, getMyListGroup } from "./dataProviderDbCalls"
 
 function ShowTotal() {
   const { data, isLoading } = useGetMany<Flag>("flags")
@@ -73,8 +53,7 @@ function ShowTotal() {
   )
 }
 
-function DisplayOtherList({ mylist }: { mylist: string }) {
-  // const {data, total, isLoading } = use
+export function DisplayOtherList({ mylist }: { mylist: string }) {
   // const { data, total, isLoading } = useGetList<any>(mylist, {
   //   filter: {},
   //   sort: { field: "date", order: "DESC" },
@@ -84,31 +63,36 @@ function DisplayOtherList({ mylist }: { mylist: string }) {
   const [isLoading, setIsLoading] = useState(true)
   const [data, setData] = useState<RaRecord[]>([])
   const [total, setTotal] = useState(0)
+  const [list, setMyList] = useState<RaRecord[]>([])
+
+  // useEffect(() => {
+  //   console.log("usingEffect", mylist)
+  //   const snap = queryCollectionGroup(mylist)
+  //   const d: RaRecord[] = []
+  //   snap
+  //     .then(docs =>
+  //       docs.forEach(doc => {
+  //         const docRecord = doc.data() as RaRecord
+  //         d.push(docRecord)
+  //       })
+  //     )
+  //     .then(_ => {
+  //       setData(d)
+  //       setIsLoading(false)
+  //       setTotal(d.length)
+  //     })
+  // }, [mylist])
 
   useEffect(() => {
-    if (data.length > 0) return
-    const snap: Promise<QuerySnapshot<DocumentData>> =
-      queryCollectionGroup(mylist)
-    const d: RaRecord[] = []
-    snap
-      .then(docs =>
-        docs.forEach(doc => {
-          const docRecord = doc.data() as RaRecord
-          d.push(docRecord)
-        })
-      )
-      .then(_ => {
-        setData(d as SetStateAction<RaRecord[]>)
-        !isLoading && setIsLoading(false)
-        setTotal(data.length)
-      })
-  })
+    const listPromise = getMyListGroup(mylist)
+    listPromise.then(l => {
+      setData(l.data)
+      setIsLoading(false)
+      setTotal(l.data.length)
+    })
+  }, [mylist])
 
   const listContext = useList({ data, isLoading })
-
-  const recordKeys = Object.keys(data.length > 0 && data[0])
-
-  console.log(recordKeys)
 
   return (
     <ResourceContextProvider value="mylist">
@@ -119,6 +103,7 @@ function DisplayOtherList({ mylist }: { mylist: string }) {
           isLoading={isLoading}
           sort={{ field: "date", order: "DESC" }}
         >
+          <TextField source="id" />
           <TextField source="authorUid" />
           <TextField source="content" />
         </Datagrid>

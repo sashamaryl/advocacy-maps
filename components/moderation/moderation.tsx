@@ -1,16 +1,28 @@
 /**
+ * affordances:
  * view flagged testimony list
  * view flagged testimony content
  * select for viewing
  * select for deletion
  * perform delete
- * record userid, pubid, moderator id, and time of deletion
+ *  
+ * record:
+ * userid, pubid, moderator id, and time of deletion
  */
 /**
- * collection with form response author id, pub id, who flagged it, reason, review status
- * display list, filter by review status, for-review are new ones
+ * add flag collection with: 
+ * form response author id, 
+ * pub id, 
+ * who flagged it, 
+ * reason, 
+ * review status
+ * 
+ * view: 
+ * display all, 
+ * filter by review status, 
+ * for-review are new ones
  *
- * when you want to sumbit review or make a decision we need to update the user
+ * when you want to sumbit review or make a decision we need to notify the user
  *
  */
 
@@ -26,12 +38,18 @@ import {
   EditGuesser,
   Form,
   Labeled,
-  List, ListGuesser, Resource,
+  List,
+  ListGuesser,
+  Resource,
   TextField,
   useRecordContext
 } from "react-admin"
 import { FirebaseDataProvider } from "react-admin-firebase"
 import Dashboard from "./dashboard"
+import {
+  getMyListGroup,
+  getMyOne
+} from "./dataProviderDbCalls"
 import type { Flag } from "./types"
 
 /*
@@ -141,20 +159,17 @@ const EditFlags = () => {
   )
 }
 
-const PubTest = () => {
-  return (
-    <List>
-      <Datagrid>
-        <TextField source="billId" />
-      </Datagrid>
-    </List>
-  )
-}
-
 const App = () => {
+  
   const dataProvider = FirebaseDataProvider({}, { app })
+  const myDataProvider = {
+    ...dataProvider,
+    getList: getMyListGroup,
+    getOne: getMyOne
+  }
+
   return (
-    <Admin dataProvider={dataProvider} dashboard={Dashboard}>
+    <Admin dataProvider={myDataProvider} dashboard={Dashboard}>
       <Resource
         name={`flags`}
         list={ListFlags}
@@ -167,7 +182,12 @@ const App = () => {
         }}
       />
       <Resource name={"profiles"} list={ListGuesser} edit={EditGuesser} />
-      <Resource name={"publishedTestimony"} list={ListGuesser} />
+      <Resource
+        name={"publishedTestimony"}
+        list={ListGuesser}
+        edit={EditGuesser}
+      />
+      <Resource name={"users"} list={ListGuesser} edit={EditGuesser} />
     </Admin>
   )
 }
