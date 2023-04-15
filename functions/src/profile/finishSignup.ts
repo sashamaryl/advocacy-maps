@@ -12,6 +12,11 @@ const CreateProfileRequest = z.object({
 export const finishSignup = functions.https.onCall(async (data, context) => {
   const uid = checkAuth(context, false)
 
+  if (context.auth?.token.role) {
+    // The user has already finished signing up
+    return
+  }
+
   const { requestedRole } = checkRequestZod(CreateProfileRequest, data)
 
   let role: Role = "user"
@@ -21,14 +26,7 @@ export const finishSignup = functions.https.onCall(async (data, context) => {
   if (requestedRole === "organization") {
     role = "organization" // set as organization for softlaunch/until admin process is implemented
   }
-
-  await setRole({ role, auth, db, uid })
-
   // admin dashboard pulls from the users collection
-  await db.doc(`users/${uid}`).set(
-    {
-      role
-    },
-    { merge: true }
-  )
+  await db.doc(`profiles/${uid}`).set({ role }, { merge: true })
+  await setRole({ role, auth, db, uid })
 })
