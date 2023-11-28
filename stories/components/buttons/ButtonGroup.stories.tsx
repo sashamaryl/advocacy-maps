@@ -1,13 +1,24 @@
+import { ComponentStory } from "@storybook/react"
+import { BaseButton, MapleButtonGroup } from "components/buttons"
+import { ButtonGroupProps } from "react-bootstrap"
 import { createMeta } from "stories/utils"
 
-// TODO: move into components directory
-const ButtonGroup = () => <div>TODO</div>
-
 export default createMeta({
-  title: "Components/Buttons/ButtonGroup",
-  figmaUrl:
-    "https://www.figma.com/file/3ifz37EOwDfmnEG8320KlD/CS1---MAPLE?node-id=243%3A12340",
-  component: ButtonGroup
+  title: "Components/Buttons/MapleButtonGroup",
+  component: MapleButtonGroup
 })
 
-export const Primary = () => <ButtonGroup />
+const Template: ComponentStory<typeof MapleButtonGroup> = ({ ...args }: ButtonGroupProps) => <MapleButtonGroup {...args} />
+
+export const Primary = Template.bind({})
+
+
+
+
+Primary.storyName = "Button Group"
+Primary.args = {
+  children: [
+  <BaseButton key={1}>button</BaseButton>, 
+  <BaseButton key={2}>button</BaseButton>, 
+  <BaseButton key={3}>button</BaseButton>]
+}

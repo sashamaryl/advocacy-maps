@@ -1,9 +1,31 @@
-import React, { useRef, useState } from "react"
-import { ButtonProps, ImageProps, SpinnerProps, Tooltip } from "react-bootstrap"
+import React, { ReactNode, useRef, useState } from "react"
+import { ButtonProps, ButtonGroup, ButtonGroupProps, SpinnerProps, Tooltip, ImageProps, ButtonToolbarProps, ButtonToolbar } from "react-bootstrap"
 import CopyToClipboard from "react-copy-to-clipboard"
 import styled from "styled-components"
 import { Button, Image, Overlay, OverlayTrigger, Spinner } from "./bootstrap"
 import { Internal } from "./links"
+
+interface BaseButtonProps extends ButtonProps {
+  label?: string
+  icon?: ReactNode
+  iconPosition?: "Left" | "Right"
+  children?: ReactNode
+  className?: string
+  variant?: string
+}
+
+export const BaseButton = ({ label, children, className, variant, icon, iconPosition }: BaseButtonProps) => {
+  const position = iconPosition === "Left" ? 'flex-row-reverse' : 'flex-row'
+
+  return < Button variant={variant} className={`${className} w-auto`}>
+    <div className={`d-flex align-items-center gap-1 px-2 round-5 ${position} fs-2`}>{label}{icon}</div>
+    {children}  </Button >
+}
+
+
+export const MapleButtonGroup = ({ children, className, ...props }: ButtonToolbarProps) => {
+  return <ButtonToolbar className={`gap-3 ${className}`} {...props}>{children}</ButtonToolbar>
+}
 
 export const TableButton = ({
   onclick,
@@ -176,3 +198,4 @@ export const GearButton = ({ children, ...props }: ButtonProps) => {
     </Button>
   )
 }
+
