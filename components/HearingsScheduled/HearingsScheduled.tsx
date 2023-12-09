@@ -1,12 +1,8 @@
-import React, { useState } from "react"
-import { Container, Carousel, Spinner } from "react-bootstrap"
+import { useState } from "react"
+import { Carousel, Container, Spinner } from "react-bootstrap"
 import { Col, Image, Row } from "../bootstrap"
 import styles from "./HearingsScheduled.module.css"
-import { useUpcomingEvents } from "../db/events"
-import { formatDate, numberToFullMonth } from "./dateUtils"
 import { useCalendarEvents } from "./calendarEvents"
-import * as admin from "firebase-admin"
-import { Timestamp } from "functions/src/firebase"
 
 export type EventData = {
   index: number

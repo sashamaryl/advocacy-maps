@@ -8,7 +8,7 @@ admin.initializeApp({
 })
 
 export const testDb = admin.firestore()
-export const testStorage = admin.storage()
+// export const testStorage = admin.storage()
 export const testAuth = admin.auth()
 
 export const testTimestamp = admin.firestore.Timestamp

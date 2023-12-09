@@ -19,5 +19,24 @@ const config: Config.InitialOptions = {
   reporters: ["default", ["jest-summary-reporter", { failuresOnly: false }]]
 }
 
+const modulesToTransform = ["@firebase", "firebase","firebase-admin", "nanoid", "@google-cloud/storage", "jose"]
+
 // See https://nextjs.org/docs/advanced-features/compiler#jest
-export default nextJest()(config)
+const cfg = async () => {
+  const res = await nextJest()(config)()
+
+  let transformIgnorePatterns = res.transformIgnorePatterns ?? []
+  transformIgnorePatterns = transformIgnorePatterns.filter(
+    (p: any) => !p.includes("node_modules")
+  )
+  transformIgnorePatterns.push(
+    `/node_modules/(?!(${modulesToTransform.join("|")})/)`
+  )
+  // transformIgnorePatterns.push('^(?!(functions)/)')
+  res.transformIgnorePatterns = transformIgnorePatterns
+
+  console.log(res)
+  return res
+}
+
+export default cfg

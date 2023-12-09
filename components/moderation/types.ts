@@ -1,6 +1,6 @@
-import { Timestamp } from "functions/src/firebase"
 import { Role } from "components/auth"
 import { functions } from "components/firebase"
+import { Timestamp } from "firebase/firestore"
 import { httpsCallable } from "firebase/functions"
 
 export type ReportStatus = "new" | "in process" | "resolved"
