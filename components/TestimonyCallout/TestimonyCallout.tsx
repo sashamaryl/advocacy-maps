@@ -92,7 +92,7 @@ export const Callout = ({
     <CalloutBalloon className="" style={{ maxWidth: "540px" }}>
       {/* <div className={`callout-angle ${position}`}></div> */}
       <Balloon className={`${position} px-4 pt-3 pb-2`}>
-        <Row className="h-100 d-flex justify-content">
+        <Row className="h-100 d-flex justify-content flex-nowrap">
           <Col className="h-100 flex-grow-0  d-flex align-items-center">
             <VoteHand position={position} className={"h-50 w-auto "} />
           </Col>
@@ -110,7 +110,7 @@ export const Callout = ({
                 "testimonyCallout.bill"
               )} ${formatBillId(billId)}`}</Col>
               <Col>
-                <div className=" text-end">{authorDisplayName}</div>
+                <div className="text-start text-md-end">{authorDisplayName}</div>
               </Col>
             </Row>
           </Col>
