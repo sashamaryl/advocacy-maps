@@ -6,15 +6,14 @@ import { createMeta } from "stories/utils"
 
 export default createMeta({
   title: "Components/TestimonyCallout",
-  component: Callout,
+  component: Callout
 })
 
-
-
-const Template: ComponentStory<typeof Callout> = (args: CalloutProps) => <Callout {...args} />
+const Template: ComponentStory<typeof Callout> = (args: CalloutProps) => (
+  <Callout {...args} />
+)
 
 type CalloutProps = ComponentProps<typeof Callout>
-
 
 export const Primary = Template.bind({})
 Primary.args = {
@@ -44,11 +43,10 @@ Third.args = {
 }
 
 export const Page = () => (
-
   <Row className="w-100 h-100">
-    <Primary {...Primary.args as CalloutProps} />
-    <Secondary {...Secondary.args as CalloutProps} />
-    <Callout {...Third.args as CalloutProps} />
-    <Callout {...Secondary.args as CalloutProps} />
-  </Row >
+    <Primary {...(Primary.args as CalloutProps)} />
+    <Secondary {...(Secondary.args as CalloutProps)} />
+    <Callout {...(Third.args as CalloutProps)} />
+    <Callout {...(Secondary.args as CalloutProps)} />
+  </Row>
 )

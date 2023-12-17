@@ -110,7 +110,9 @@ export const Callout = ({
                 "testimonyCallout.bill"
               )} ${formatBillId(billId)}`}</Col>
               <Col>
-                <div className="text-start text-md-end">{authorDisplayName}</div>
+                <div className="text-start text-md-end">
+                  {authorDisplayName}
+                </div>
               </Col>
             </Row>
           </Col>
