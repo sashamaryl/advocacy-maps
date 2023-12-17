@@ -14,7 +14,14 @@ handMap.set("endorse", "/thumbs-endorse.svg")
 handMap.set("neutral", "/thumbs-neutral.svg")
 handMap.set("oppose", "/thumbs-oppose.svg")
 
-export const VoteHand = ({ position, className, ...props }: { position: Testimony["position"], className: string } & Omit<ImageProps, "src">) => {
+export const VoteHand = ({
+  position,
+  className,
+  ...props
+}: { position: Testimony["position"]; className: string } & Omit<
+  ImageProps,
+  "src"
+>) => {
   const { t } = useTranslation("testimony")
 
   return (
@@ -33,7 +40,7 @@ const CalloutBalloon = styled.div`
   inset: 0;
   display: flex;
   align-items: flex-end;
-  pointer-events: visible
+  pointer-events: visible;
 `
 
 const Balloon = styled.div`
@@ -55,7 +62,6 @@ const Balloon = styled.div`
   &.oppose {
     background-color: var(--bs-red);
   }
-
 `
 
 export const Callout = ({
@@ -76,49 +82,58 @@ export const Callout = ({
   const [clippedLines, setClippedLines] = useState<string>("")
 
   useResizeObserver({
-    ref: textRef, onResize: () => {
+    ref: textRef,
+    onResize: () => {
       setClippedLines(trimContentToElementSize(textRef.current, content))
     }
   })
 
-
   return (
-    <CalloutBalloon className="" style={{ maxWidth: "540px" }} >
+    <CalloutBalloon className="" style={{ maxWidth: "540px" }}>
       {/* <div className={`callout-angle ${position}`}></div> */}
       <Balloon className={`${position} px-4 pt-3 pb-2`}>
-
-        <Row className="h-100 d-flex justify-content" >
+        <Row className="h-100 d-flex justify-content">
           <Col className="h-100 flex-grow-0  d-flex align-items-center">
             <VoteHand position={position} className={"h-50 w-auto "} />
           </Col>
           <Col className="h-100  text-white d-flex flex-column justify-items-start fs-6 ">
-            <Row className=" flex-fill" style={{ maxHeight: '5rem', overflow: "hidden" }} >
-              <div className="w-100 h-100" ref={textRef}>{clippedLines}</div>
+            <Row
+              className=" flex-fill"
+              style={{ maxHeight: "5rem", overflow: "hidden" }}
+            >
+              <div className="w-100 h-100" ref={textRef}>
+                {clippedLines}
+              </div>
             </Row>
             <Row className="mt-auto text-nowrap d-flex align-items-end">
-              <Col className="text-right">{`${t("testimonyCallout.bill")} ${formatBillId(billId)}`}</Col>
-              <Col><div className=" text-end">{authorDisplayName}</div></Col>
+              <Col className="text-right">{`${t(
+                "testimonyCallout.bill"
+              )} ${formatBillId(billId)}`}</Col>
+              <Col>
+                <div className=" text-end">{authorDisplayName}</div>
+              </Col>
             </Row>
           </Col>
         </Row>
-
       </Balloon>
-    </CalloutBalloon >
+    </CalloutBalloon>
   )
 }
 
-
-export function trimContentToElementSize(el: HTMLDivElement | null, content: string) {
+export function trimContentToElementSize(
+  el: HTMLDivElement | null,
+  content: string
+) {
   if (!el) return ""
   const fontSize = parseFloat(getComputedStyle(el).fontSize)
   const lineHeight = parseFloat(getComputedStyle(el).lineHeight)
   const height = parseFloat(getComputedStyle(el).height)
   const width = parseFloat(getComputedStyle(el).width)
 
-  const lines = height / (lineHeight)
+  const lines = height / lineHeight
   const lineCharacters = width / (fontSize * 0.9)
 
-  const characters = Math.round((lines) * lineCharacters)
+  const characters = Math.round(lines * lineCharacters)
 
   return trimContent(content, characters)
 }
