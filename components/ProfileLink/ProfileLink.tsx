@@ -1,13 +1,13 @@
-import { useEffect, useState } from "react"
-import { Container, Navbar, Nav } from "react-bootstrap"
+import { useState } from "react"
+import { Nav, Navbar } from "react-bootstrap"
 import Image from "react-bootstrap/Image"
+import { NavLink } from "../Navlink"
 import {
   Role,
   SignInWithButton,
   signOutAndRedirectToHome,
   useAuth
 } from "../auth"
-import { NavLink } from "../Navlink"
 import styles from "./ProfileLink.module.css"
 
 const greeting = (role: Role, fullName?: string) => {
@@ -22,23 +22,19 @@ const greeting = (role: Role, fullName?: string) => {
   }
 }
 
-const ProfileMenuItem = (
-  label: string,
-  href: string,
-  handleClick: () => void
-) => (
-  <NavLink className={"navLink-primary"} href={href} handleClick={handleClick}>
-    {label}
-  </NavLink>
-)
-
 type ProfileLinkProps = {
   fullName?: string
   role?: Role
   sticky: boolean
+  className?: string
 }
 
-const ProfileLink = ({ fullName, role = "user", sticky }: ProfileLinkProps) => {
+const ProfileLink = ({
+  fullName,
+  role = "user",
+  className,
+  sticky
+}: ProfileLinkProps) => {
   const { authenticated, user } = useAuth()
 
   const [isExpanded, setIsExpanded] = useState(false)
@@ -53,24 +49,26 @@ const ProfileLink = ({ fullName, role = "user", sticky }: ProfileLinkProps) => {
       variant="dark"
       bg="secondary"
       collapseOnSelect={true}
-      className="d-flex justify-content-end"
+      className={`d-flex justify-content-end ${className}`}
     >
       {authenticated ? (
         <>
           <Navbar.Brand onClick={toggleNav}>
-            <Nav.Link className="p-0 text-white">
+            <Nav.Link className="p-0 text-white d-flex align-items-center ">
               <Image
                 className={styles.profileLinkImage}
                 src="/profile-icon.svg"
                 alt="profile icon"
               ></Image>
-              {sticky ? "" : greeting(role, fullName)}
+              <div className={`d-none d-md-flex ms-1`}>
+                {greeting(role, fullName)}
+              </div>
             </Nav.Link>
           </Navbar.Brand>
           <Navbar.Collapse id="profile-nav">
-            <Nav className="me-4 d-flex align-items-end">
+            <Nav className="me-2 me-md-4 d-flex align-items-end">
               <NavLink
-                className={"navLink-primary"}
+                className={"fw-bold text-nowrap justify-self-end"}
                 handleClick={() => {
                   location.assign(userLink)
                 }}
@@ -78,14 +76,14 @@ const ProfileLink = ({ fullName, role = "user", sticky }: ProfileLinkProps) => {
                 View Profile
               </NavLink>
               <NavLink
-                className={"navLink-primary"}
+                className={"fw-bold"}
                 href="/editprofile"
                 handleClick={closeNav}
               >
                 Edit Profile
               </NavLink>
               <NavLink
-                className={"navLink-primary"}
+                className={"fw-bold"}
                 handleClick={() => {
                   closeNav()
                   void signOutAndRedirectToHome()

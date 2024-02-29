@@ -7,9 +7,8 @@ import { NavLink } from "./Navlink"
 import ProfileLink from "./ProfileLink/ProfileLink"
 import { SignInWithButton, signOutAndRedirectToHome, useAuth } from "./auth"
 import AuthModal from "./auth/AuthModal"
-import { Container, Nav, NavDropdown, Navbar } from "./bootstrap"
+import { Col, Container, Nav, NavDropdown, Navbar, Row } from "./bootstrap"
 import { useProfile } from "./db"
-import styles from "./layout.module.css"
 
 export type LayoutProps = {
   title?: string
@@ -29,10 +28,10 @@ export const Layout: React.FC<React.PropsWithChildren<LayoutProps>> = ({
         }MAPLE: The Massachusetts Platform for Legislative Engagement`}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className={styles.pageContainer}>
+      <div className={"h-100 d-flex flex-column "}>
         <TopNav />
         <AuthModal />
-        <div className={styles.content}>{children}</div>
+        <div className={"flex-grow-1 flex-shrink-1"}>{children}</div>
         <PageFooter
           authenticated={authenticated}
           user={user as any}
@@ -43,7 +42,7 @@ export const Layout: React.FC<React.PropsWithChildren<LayoutProps>> = ({
   )
 }
 
-const TopNav: React.FC<React.PropsWithChildren<unknown>> = () => {
+export const TopNav: React.FC<React.PropsWithChildren<unknown>> = () => {
   const { authenticated, claims } = useAuth()
   const { profile } = useProfile()
   const isMobile = useMediaQuery("(max-width: 768px)")
@@ -65,8 +64,15 @@ const TopNav: React.FC<React.PropsWithChildren<unknown>> = () => {
       data-bs-theme="dark"
     >
       <Container fluid>
-        <div className={styles.navbar_boxes_container}>
-          <div className={styles.navbar_box}>
+        <Row
+          className={
+            "d-flex flex-row align-items-start justify-content-between col-12"
+          }
+        >
+          <Col
+            xs={4}
+            className={"d-flex justify-content-start align-items-start"}
+          >
             <Navbar expand={false} expanded={isExpanded}>
               <Navbar.Brand>
                 <Navbar.Toggle aria-controls="topnav" onClick={toggleNav} />
@@ -74,28 +80,28 @@ const TopNav: React.FC<React.PropsWithChildren<unknown>> = () => {
               <Navbar.Collapse id="topnav">
                 <Nav className="me-auto">
                   <NavLink
-                    className={"navLink-primary"}
+                    className={"fw-bold"}
                     href="/"
                     handleClick={closeNav}
                   >
                     Home
                   </NavLink>
                   <NavLink
-                    className={"navLink-primary"}
+                    className={"fw-bold"}
                     href="/bills"
                     handleClick={closeNav}
                   >
                     Browse Bills
                   </NavLink>
                   <NavLink
-                    className={"navLink-primary"}
+                    className={"fw-bold"}
                     href="/testimony"
                     handleClick={closeNav}
                   >
                     Browse Testimony
                   </NavLink>
 
-                  <NavDropdown className={"navLink-primary"} title={"Learn"}>
+                  <NavDropdown className={"fw-bold"} title={"Learn"}>
                     <NavDropdown.Item>
                       <NavLink
                         href="/learn/basics-of-testimony"
@@ -122,7 +128,7 @@ const TopNav: React.FC<React.PropsWithChildren<unknown>> = () => {
                     </NavDropdown.Item>
                   </NavDropdown>
 
-                  <NavDropdown className={"navLink-primary"} title={"About"}>
+                  <NavDropdown className={"fw-bold"} title={"About"}>
                     <NavDropdown.Item>
                       <NavLink href="/about/faq-page" handleClick={closeNav}>
                         FAQ
@@ -156,10 +162,7 @@ const TopNav: React.FC<React.PropsWithChildren<unknown>> = () => {
                     </NavDropdown.Item>
                   </NavDropdown>
 
-                  <NavDropdown
-                    className={"navLink-primary"}
-                    title={"Why Use MAPLE"}
-                  >
+                  <NavDropdown className={"fw-bold"} title={"Why Use MAPLE"}>
                     <NavDropdown.Item>
                       <NavLink
                         href="/why-use-maple/for-individuals"
@@ -188,7 +191,7 @@ const TopNav: React.FC<React.PropsWithChildren<unknown>> = () => {
 
                   {authenticated && (
                     <NavLink
-                      className={"navLink-primary"}
+                      className={"fw-bold"}
                       handleClick={() => {
                         closeNav()
                         void signOutAndRedirectToHome()
@@ -200,34 +203,35 @@ const TopNav: React.FC<React.PropsWithChildren<unknown>> = () => {
                 </Nav>
               </Navbar.Collapse>
             </Navbar>
-          </div>
-          <div className={sticky ? "me-2 w-100 h-100 flex" : styles.navbar_box}>
-            <div className={sticky ? styles.center_menu : ""}>
-              <Nav.Link href="/" className="py-0 px-2 w-100">
-                {sticky ? (
-                  <Image
-                    src="/white-tree.svg"
-                    alt="logo"
-                    className="w-100"
-                  ></Image>
-                ) : (
-                  <Image src="/nav-logo.svg" alt="logo"></Image>
-                )}
-              </Nav.Link>
-            </div>
-          </div>
-          <div className={styles.navbar_box}>
+          </Col>
+          <Col xs={4}>
+            <Nav.Link href="/" className="py-0 px-2 w-100">
+              {sticky ? (
+                <Image
+                  src="/white-tree.svg"
+                  alt="logo"
+                  className="w-100"
+                ></Image>
+              ) : (
+                <Image src="/nav-logo.svg" alt="logo"></Image>
+              )}
+            </Nav.Link>
+          </Col>
+          <Col
+            xs={4}
+            className={`d-flex justify-content-end align-items-start`}
+          >
             <ProfileLink
               role={claims?.role}
               fullName={profile?.fullName}
               sticky={sticky}
             />
-          </div>
-        </div>
+          </Col>
+        </Row>
       </Container>
 
       {sticky && !authenticated ? (
-        <SignInWithButton className={styles.mobile_nav_auth} />
+        <SignInWithButton className={"w-100 pt-2"} />
       ) : null}
     </Navbar>
   )
