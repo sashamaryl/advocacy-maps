@@ -20,6 +20,7 @@ import { UseAsyncReturn } from "react-async-hook"
 import { useTranslation } from "next-i18next"
 import { trimContent } from "components/TestimonyCallout/TestimonyCallout"
 import { flags } from "components/featureFlags"
+import { TestimonyItemClientLink } from "./TestimonyItemClientLink"
 
 const FooterButton = styled(Button)`
   margin: 0;
@@ -191,12 +192,14 @@ export const TestimonyItem = ({
                 <Internal
                   className={styles.link}
                   href={maple.testimony({ publishedId: testimony.id })}
-                >
+                  >
                   {t("testimonyItem.moreDetails")}
                 </Internal>
               </FooterButton>
+              <TestimonyItemClientLink testimony={testimony} />
             </Col>
           )}
+
           {testimony.attachmentId && (
             <Col className="d-flex">
               <FooterButton variant="link">

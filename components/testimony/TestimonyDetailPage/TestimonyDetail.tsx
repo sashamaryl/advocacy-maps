@@ -42,18 +42,14 @@ export const positionInfo = {
   oppose: { action: "opposes", src: "/thumbs-oppose.svg", alt: "Oppose" }
 }
 
-const PositionIcon: FC<
-  React.PropsWithChildren<
-    ImgHTMLAttributes<HTMLImageElement> & { position: Position }
-  >
-> = ({ position, ...props }) => {
+const PositionIcon: FC<ImgHTMLAttributes<HTMLImageElement> & { position: Position }> = ({ position, ...props }) => {
   const { action, ...positionProps } = positionInfo[position]
   return <img aria-label={action} {...props} {...positionProps} />
 }
 
 const Header = styled(props => {
   const { revision, authorLink, authorTitle, isEdited } =
-      useCurrentTestimonyDetails(),
+    useCurrentTestimonyDetails(),
     position = revision.position
 
   const authorInfo = authorLink ? (
@@ -102,7 +98,7 @@ const Separator = styled.div`
   height: 1px;
 `
 
-export const TestimonyDetail: FC<React.PropsWithChildren<unknown>> = () => {
+export const TestimonyDetail: FC = () => {
   const { revision } = useCurrentTestimonyDetails()
 
   return (

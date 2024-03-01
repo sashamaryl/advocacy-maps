@@ -48,6 +48,7 @@ export const slice = createSlice({
   },
   extraReducers: {
     [HYDRATE]: (state, action) => {
+      console.log("HYDRATE", state, action.payload.testimonyDetail, action.payload.testimonyDetail.data.testimony.id)
       Object.assign(state, action.payload[slice.name])
     }
   }
